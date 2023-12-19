@@ -1,4 +1,5 @@
 import React from "react";
+import Works from "../components/Works";
 
 function Home() {
   return (
@@ -14,6 +15,10 @@ function Home() {
       <p className="mt-5 text-xl text-left lg:text-3xl lg:w-[50%] lg:mt-10"> 
       Have a look at some of the projects I’ve worked on. Clients vary from lifestyle to tech and design companies.
       </p>
+      <Works name ={`custo`} year={`2020`} />
+      <Works name ={`custo`} year={`2020`} />
+      <Works name ={`custo`} year={`2020`} />
+      <Works name ={`custo`} year={`2020`} />
     </>
   );
 }
