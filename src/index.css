@@ -42,6 +42,23 @@
   src: url("./assets/Inter-Thin.ttf");
 }
 
+@font-face {
+  font-family: "Inter Tight Bold";
+  src: url("./assets/InterTight-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Inter Tight Semibold";
+  src: url("./assets/InterTight-SemiBold.ttf");
+}
+
 body{
   font-family: "Inter Regular", sans-serif;
+  padding: 0.80rem
+}
+
+@media (min-width: 1024px) {
+  body {
+      padding: 2rem 3rem;
+  }
 }

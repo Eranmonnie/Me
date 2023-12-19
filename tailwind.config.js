@@ -14,7 +14,9 @@ export default {
         'inter-xlight':['Inter Xlight'],
         'inter-medium':['Inter Medium'],
         'inter-semibold':['Inter Semibold'],
-        'inter-thin':['Inter Thin']
+        'inter-thin':['Inter Thin'],
+        'inter-tight-bold':['Inter Tight Bold'],
+        'inter-tight-semibold':['Inter Tight Semibold'],
       }
     },
   },
