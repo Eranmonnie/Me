@@ -17,6 +17,7 @@ export default {
         'inter-thin':['Inter Thin'],
         'inter-tight-bold':['Inter Tight Bold'],
         'inter-tight-semibold':['Inter Tight Semibold'],
+        'inter-tight-regular':['Inter Tight Regular'],
       }
     },
   },

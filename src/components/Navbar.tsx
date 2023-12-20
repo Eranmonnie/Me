@@ -8,16 +8,16 @@ const Navbar = () => {
         Feranmi&reg;
       </Link>
       <div>
-        <Link to="/" className="text-lg font-inter-semibold lg:text-2xl">
+        <Link to="/projects" className="text-lg font-inter-medium lg:text-2xl">
           Projects
         </Link>
-        <Link to="/" className="text-lg ml-2 font-inter-semibold lg:text-2xl">
+        <Link to="/" className="text-lg ml-2 font-inter-medium lg:text-2xl">
           About
         </Link>
       </div>
       <Link
         to="/"
-        className="text-lg font-inter-semibold hidden md:inline-flex ml-auto lg:text-2xl"
+        className="text-lg font-inter-medium hidden md:inline-flex ml-auto lg:text-2xl"
       >
         ajalaferanmi123@gmail.com
       </Link>

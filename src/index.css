@@ -52,6 +52,11 @@
   src: url("./assets/InterTight-SemiBold.ttf");
 }
 
+@font-face {
+  font-family: "Inter Tight Regular";
+  src: url("./assets/InterTight-Regular.ttf");
+}
+
 body{
   font-family: "Inter Regular", sans-serif;
   padding: 0.80rem
