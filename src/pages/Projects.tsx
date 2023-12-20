@@ -21,6 +21,7 @@ const Projects = () => {
       <Question
         one={`Looking to grow your business through the power of great digital design?`}
         two={`Reach out to get the conversation started about your digital design needs.`}
+        button={true}
       />
       <Footer />
     </>
