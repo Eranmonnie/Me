@@ -21,7 +21,7 @@ function Home() {
 
       <div className="flex justify-between mt-36 mb-8">
         <h3 className="text-lg lg:text-2xl">(Selected works)</h3>
-        <h3 className="text-lg lg:text-2xl">Discover </h3>
+        <h3 className="text-lg lg:text-2xl">Discover↓</h3>
       </div>
 
       <Works name={`Nerflix`} year={`2023`} />

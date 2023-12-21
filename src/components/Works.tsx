@@ -7,9 +7,8 @@ const Works = ({ name, year }) => {
         <div className="">
           <img
             src="src\images\Screenshot (26).png"
-            className="object-cover"
+            className="object-cover rounded-xl w-full"
             alt="///"
-            className="rounded-xl w-full"
           />
         </div>
 

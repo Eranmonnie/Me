@@ -9,7 +9,7 @@ const Socials = () => {
           <h3 className="text-xl">Twitter</h3>
         </div>
         <h3 className="text-center text-xl mt-2 lg:mt-0 lg:ml-auto">
-          Back to the top
+          Back to the top↑
         </h3>
       </div>
     </>
