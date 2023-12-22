@@ -6,6 +6,7 @@ import Question from "../components/Question";
 import Solution from "../components/Solution";
 import Footer from "../components/Footer";
 import Button from "../components/Button";
+import Services from "../components/Services";
 
 const About = () => {
   return (
@@ -36,12 +37,27 @@ const About = () => {
       </div>
 
       <div className="flex flex-col gap-5 lg:flex-row justify-between">
-        <h1 className="font-inter-tight-bold uppercase text-7xl">
-          services
-        </h1>
+        <h1 className="font-inter-tight-bold uppercase text-7xl">services</h1>
         <Button />
       </div>
 
+      <Services
+        data={`We’ll have a look at what content should be on the site, which shouldn’t and what goes on which page. By thinking about the structure in user funnels we’ll define a path for the user towards conversion.`}
+      />
+
+      <Services
+        data={`We’ll have a look at what content should be on the site, which shouldn’t and what goes on which page. By thinking about the structure in user funnels we’ll define a path for the user towards conversion.`}
+      />
+
+      <Services
+        data={`We’ll have a look at what content should be on the site, which shouldn’t and what goes on which page. By thinking about the structure in user funnels we’ll define a path for the user towards conversion.`}
+      />
+
+      <Question
+        one={`When I’m not at the computer you can find me riding my skateboard, watching anything star wars related or walking our dogs. `}
+        two={false}
+        button={false}
+      />
       <Footer />
     </>
   );
