@@ -14,17 +14,22 @@ function Home() {
         second={`software engineer`}
         align={true}
       />
-      <Hero
-        message={`Through strategic art direction and webdesign I help companies around the world grow their business.`}
-      />
+      <div className="mb-12">
+        <Hero
+          message={`Through strategic art direction and webdesign I help companies around the world grow their business.`}
+        />
+      </div>
+
       <Button />
 
-      <div className="flex justify-between mt-36 mb-8">
+      <div className="flex justify-between mt-32 mb-8">
         <h3 className="text-lg lg:text-2xl">(Selected works)</h3>
         <h3 className="text-lg lg:text-2xl">Discover↓</h3>
       </div>
 
-      <Works name={`Nerflix`} year={`2023`} />
+      
+        <Works name={`Nerflix`} year={`2023`} />
+     
 
       <Question
         one={`As a digital designer and art

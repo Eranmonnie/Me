@@ -9,7 +9,7 @@ const Question = ({ one, two, button }) => {
         <div className="lg:w-[55%]">
           <h2 className="text-3xl text-left lg:text-4xl">{one}</h2>
           <h2 className="text-3xl mt-5 text-left lg:text-4xl">{two}</h2>
-          { button ?(<Button />):
+          { button ?(<div className="mt-10"><Button /></div>):
           
           (<div className="mb-44"></div>)
             }

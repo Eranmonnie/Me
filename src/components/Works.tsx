@@ -3,7 +3,7 @@ import React from "react";
 const Works = ({ name, year }) => {
   return (
     <>
-      <div className="w-[99.7%] flex flex-col mb-24 gap-5 lg:mb-44">
+      <div className="w-[99.7%] flex flex-col mb-36 gap-5 lg:mb-44">
         <div className="">
           <img
             src="src\images\Screenshot (26).png"
