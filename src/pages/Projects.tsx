@@ -11,7 +11,7 @@ const Projects = () => {
       <Banner first={`selected works`} second={`(2020-2023)`} align={true} />
       <div className="mb-40">
         <Hero
-          message={`Have a look at some of the projects I’ve worked on. Clients vary from lifestyle to tech and design companies.`}
+          message={`Have a look at some of the projects I’ve worked on. They vary from lifstand alone front-end applications to full fledged fulstack ones.`}
         />
       </div>
       <Works name={`Nerflix`} year={`2023`} />

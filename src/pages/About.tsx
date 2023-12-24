@@ -13,17 +13,19 @@ const About = () => {
     <>
       <Banner first={`software `} second={`and piano`} align={true} />
       <Hero
-        message={`Get to know more about my approach, process, services and way of working. See some of my skateboard tricks as well while you're at it.`}
+        message={`Get to know more about my approach, process, services and way of working. Get to see what i do when i'm not on my laptop while you're at it.`}
       />
       <div className="mt-28">
         <Profile />
       </div>
 
-      <Question
-        one={`The best results come from websites that are easy to use, show the user what they want to see and delight them. By analysing your current situation and defining your business goals we’ll design a website that is not only beautiful but also converts. `}
-        two={false}
-        button={false}
-      />
+      <div className="mb-20">
+        <Question
+          one={`The best results come from websites that are easy to use, show the user what they want to see and delight them. By analysing your current situation and defining your business goals we’ll design a website that is not only beautiful but also converts. `}
+          two={false}
+          button={false}
+        />
+      </div>
 
       <Solution
         heading={`Defining the business goal and `}
@@ -37,7 +39,9 @@ const About = () => {
       </div>
 
       <div className="flex flex-col gap-5 lg:flex-row justify-between">
-        <h1 className="font-inter-tight-bold uppercase text-7xl">services</h1>
+        <h1 className="font-inter-tight-bold uppercase text-7xl lg:text-9xl">
+          services
+        </h1>
         <Button />
       </div>
 
