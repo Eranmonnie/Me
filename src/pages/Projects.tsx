@@ -1,4 +1,3 @@
-import React from "react";
 import Works from "../components/Works";
 import Question from "../components/Question";
 import Banner from "../components/Banner";
@@ -14,10 +13,26 @@ const Projects = () => {
           message={`Have a look at some of the projects I’ve worked on. They vary from lifstand alone front-end applications to full fledged fulstack ones.`}
         />
       </div>
-      <Works name={`Nerflix`} year={`2023`} />
-      <Works name={`Laracast`} year={`2023`} />
-      <Works name={`Worddle clone`} year={`2023`} />
-      <Works name={`custo`} year={`2020`} />
+      <Works
+        name={`Nerflix`}
+        year={`2023`}
+        data={`Ecommerce website for the first smart mailbox Custo®.`}
+      />
+      <Works
+        name={`Laracast`}
+        year={`2023`}
+        data={`Ecommerce website for the first smart mailbox Custo®.`}
+      />
+      <Works
+        name={`Worddle clone`}
+        year={`2023`}
+        data={`Ecommerce website for the first smart mailbox Custo®.`}
+      />
+      <Works
+        name={`custo`}
+        year={`2020`}
+        data={`Ecommerce website for the first smart mailbox Custo®.`}
+      />
       <Question
         one={`Looking to grow your business through the power of great digital design?`}
         two={`Reach out to get the conversation started about your digital design needs.`}

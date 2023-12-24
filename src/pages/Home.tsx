@@ -1,4 +1,3 @@
-import React from "react";
 import Works from "../components/Works";
 import Question from "../components/Question";
 import Banner from "../components/Banner";
@@ -27,9 +26,11 @@ function Home() {
         <h3 className="text-lg lg:text-2xl">Discover↓</h3>
       </div>
 
-      
-        <Works name={`Nerflix`} year={`2023`} />
-     
+      <Works
+        name={`Nerflix`}
+        year={`2023`}
+        data={`Ecommerce website for the first smart mailbox Custo®.`}
+      />
 
       <Question
         one={`As a digital designer and art
@@ -39,8 +40,16 @@ function Home() {
       clients or in a supporting role for agencie and studios from around the world. `}
         button={false}
       />
-      <Works name={`Nerflix`} year={`2023`} />
-      <Works name={`Nerflix`} year={`2023`} />
+      <Works
+        name={`Nerflix`}
+        year={`2023`}
+        data={`Ecommerce website for the first smart mailbox Custo®.`}
+      />
+      <Works
+        name={`Nerflix`}
+        year={`2023`}
+        data={`Ecommerce website for the first smart mailbox Custo®.`}
+      />
 
       <Question
         one={`Looking to grow your business through the power of great digital design? `}

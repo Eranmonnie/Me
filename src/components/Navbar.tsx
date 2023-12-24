@@ -1,23 +1,28 @@
-import React from "react";
+import { FC } from "react";
 import { Link } from "react-router-dom";
 
-const Navbar = () => {
+const Navbar: FC = () => {
   return (
-    <div className="flex justify-between md:justify-normal gap-14">
+    <div className="flex justify-between lg:gap-7">
       <Link to="/" className="text-lg font-inter-semibold lg:text-2xl">
         Feranmi&reg;
       </Link>
-      <div>
+
+      <div className="ml-auto flex lg:gap-7 lg:ml-auto">
         <Link to="/projects" className="text-lg font-inter-medium lg:text-2xl">
           Projects
         </Link>
-        <Link to="/about" className="text-lg ml-2 font-inter-medium lg:text-2xl">
+
+        <Link
+          to="/about"
+          className="text-lg ml-2 font-inter-medium lg:text-2xl"
+        >
           About
         </Link>
       </div>
       <Link
         to="/"
-        className="text-lg font-inter-medium hidden md:inline-flex ml-auto lg:text-2xl"
+        className="text-lg font-inter-medium hidden lg:inline-flex  lg:text-2xl"
       >
         ajalaferanmi123@gmail.com
       </Link>

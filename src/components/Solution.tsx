@@ -1,6 +1,11 @@
-import React from "react";
+import { FC } from "react";
 
-const Solution = ({ heading, data }) => {
+interface solutionProps {
+  heading: string;
+  data: string;
+}
+
+const Solution: FC<solutionProps> = ({ heading, data }) => {
   return (
     <>
       <div className="lg:w-[74%] lg:ml-auto text-xl">
@@ -11,7 +16,7 @@ const Solution = ({ heading, data }) => {
             <h3 className="text-xl mb-5">{heading}</h3>
 
             <p className="text-xl">{data}</p>
-          </div> 
+          </div>
         </div>
       </div>
     </>

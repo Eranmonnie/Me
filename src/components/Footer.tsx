@@ -1,12 +1,16 @@
-import React from "react";
 import Banner from "./Banner";
 import Socials from "./Socials";
+import { FC } from "react";
 
-const Footer = () => {
+const Footer: FC = () => {
   return (
     <>
-     <Banner first={`ajala feranmi`} second={`software engineer`} align={false} />
-     <Socials/>
+      <Banner
+        first={`ajala feranmi`}
+        second={`software engineer`}
+        align={false}
+      />
+      <Socials />
     </>
   );
 };

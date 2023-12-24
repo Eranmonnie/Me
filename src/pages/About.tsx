@@ -1,4 +1,3 @@
-import React from "react";
 import Banner from "../components/Banner";
 import Hero from "../components/Hero";
 import Profile from "../components/Profile";
@@ -23,7 +22,6 @@ const About = () => {
       <div className="mb-20">
         <Question
           one={`The best results come from websites that are easy to use, show the user what they want to see and delight them. By analysing your current situation and defining your business goals we’ll design a website that is not only beautiful but also converts. `}
-          two={false}
           button={false}
         />
       </div>
@@ -60,19 +58,18 @@ const About = () => {
 
       <Question
         one={`When I’m not at the computer you can find me riding my skateboard, watching anything star wars related or walking our dogs. `}
-        two={false}
         button={false}
       />
       <div className="mt-20 mb-20">
-      <Pictures />
+        <Pictures />
       </div>
-      
+
       <Question
         one={`Looking to grow your business through the power of great digital design? `}
         two={`Reach out to get the conversation started about your digital design needs. `}
         button={true}
-      />  
-      
+      />
+
       <Footer />
     </>
   );

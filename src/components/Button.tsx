@@ -1,14 +1,11 @@
-import React from "react";
+import { FC } from "react";
 
-const Button = () => {
+const Button: FC = () => {
   return (
     <>
-    
-    <button className="py-5 px-6 lg:p-0 border rounded-full w-[310px] lg:w-[320px]lg:text-xl text-center">
+      <button className="py-7 px-6  border rounded-full w-[310px] lg:w-[320px]lg:text-xl text-center">
         ajalaferanmi123@gmail.com
       </button>
-    
-     
     </>
   );
 };

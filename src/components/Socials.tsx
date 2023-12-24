@@ -1,6 +1,6 @@
-import React from "react";
+import { FC } from "react";
 
-const Socials = () => {
+const Socials: FC = () => {
   return (
     <>
       <div className="flex flex-col gap-3 lg:flex-row ">
