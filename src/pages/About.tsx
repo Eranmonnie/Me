@@ -39,7 +39,7 @@ const About = () => {
         />
       </div>
 
-      <div className="flex flex-col gap-5 lg:flex-row justify-between">
+      <div className="flex flex-col gap-5 lg:flex-row lg:justify-between">
         <h1 className="font-inter-tight-bold uppercase text-7xl lg:text-9xl">
           services
         </h1>
@@ -63,9 +63,15 @@ const About = () => {
         two={false}
         button={false}
       />
-      <div className="mt-20">
+      <div className="mt-20 mb-20">
       <Pictures />
       </div>
+      
+      <Question
+        one={`Looking to grow your business through the power of great digital design? `}
+        two={`Reach out to get the conversation started about your digital design needs. `}
+        button={true}
+      />  
       
       <Footer />
     </>
