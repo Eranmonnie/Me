@@ -38,9 +38,9 @@ const About = () => {
       </div>
 
       <div className="flex flex-col gap-5 lg:flex-row lg:justify-between">
-        <h1 className="font-inter-tight-bold uppercase text-7xl lg:text-9xl">
+        <h2 className="font-inter-tight-bold uppercase text-7xl lg:text-9xl">
           services
-        </h1>
+        </h2>
         <Button />
       </div>
 
