@@ -7,6 +7,7 @@ import Solution from "../components/Solution";
 import Footer from "../components/Footer";
 import Button from "../components/Button";
 import Services from "../components/Services";
+import Pictures from "../components/Pictures";
 
 const About = () => {
   return (
@@ -62,6 +63,10 @@ const About = () => {
         two={false}
         button={false}
       />
+      <div className="mt-20">
+      <Pictures />
+      </div>
+      
       <Footer />
     </>
   );

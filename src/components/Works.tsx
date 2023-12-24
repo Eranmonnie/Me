@@ -12,12 +12,12 @@ const Works = ({ name, year }) => {
           />
         </div>
 
-        <div className="flex  lg:gap-[22%]">
-          <h3 className="text-lg text-left lg:text-xl lg:w-12">{`${name}`}&reg;</h3>
-          <h3 className=" text-lg hidden text-left md:inline w-[30%] lg:text-xl">
+        <div className="flex justify-between lg:gap-[21%]">
+          <h3 className="text-lg lg:text-xl lg:w-[5%]">{`${name}`}&reg;</h3>
+          <h3 className=" text-lg hidden lg:inline text-left md:hidden w-[30%] lg:text-xl">
             Ecommerce website for the first smart mailbox Custo®.
           </h3>
-          <h3 className="text-lg text-left md:hidden lg:inline lg:mr-auto lg:text-xl">{`(${year})`}</h3>
+          <h3 className="text-lg text-left lg:inline lg:mr-auto lg:text-xl ">{`(${year})`}</h3>
         </div>
       </div>
     </>
