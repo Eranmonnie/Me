@@ -12,7 +12,7 @@ const Works: FC<worksProps> = ({ name, year, data }) => {
       <div className="w-[99.7%] flex flex-col mb-36 gap-5 lg:mb-44">
         <div className="">
           <img
-            src="src\images\Screenshot (147).png"
+            src="https://res.cloudinary.com/djtlzuxfa/image/upload/v1703443457/Screenshot_147_ghd6mh.png"
             className="object-cover rounded-xl w-full"
             alt="///"
           />
