@@ -4,6 +4,7 @@ import Banner from "../components/Banner";
 import Hero from "../components/Hero";
 import Button from "../components/Button";
 import Footer from "../components/Footer";
+import { motion } from "framer-motion"
 
 function Home() {
   return (
@@ -13,11 +14,15 @@ function Home() {
         second={`software engineer`}
         align={true}
       />
-      <div className="mb-12">
+      <motion.div
+      initial={{ opacity: 0}}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 1.5 }}
+       className="mb-12">
         <Hero
           message={`Through strategic art direction and webdesign I help companies around the world grow their business.`}
         />
-      </div>
+      </motion.div>
 
       <Button />
 
