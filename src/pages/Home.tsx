@@ -4,7 +4,7 @@ import Banner from "../components/Banner";
 import Hero from "../components/Hero";
 import Button from "../components/Button";
 import Footer from "../components/Footer";
-import { motion } from "framer-motion"
+import { motion } from "framer-motion";
 
 function Home() {
   return (
@@ -14,17 +14,25 @@ function Home() {
         second={`software engineer`}
         align={true}
       />
+
       <motion.div
-      initial={{ opacity: 0}}
-      animate={{ opacity: 1 }}
-      transition={{ duration: 1.5 }}
-       className="mb-12">
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ delay: 0.4, duration: 0.5 }}
+        className="mb-12"
+      >
         <Hero
           message={`Through strategic art direction and webdesign I help companies around the world grow their business.`}
         />
       </motion.div>
 
-      <Button />
+      <motion.div
+      initial={{opacity:0, y:30}}
+      animate={{opacity:2, y:0}}
+      transition={{delay:0.5, type:'spring', stiffness:40}}
+      >
+        <Button />
+      </motion.div>
 
       <div className="flex justify-between mt-32 mb-8">
         <h3 className="text-lg lg:text-2xl">(Selected works)</h3>
