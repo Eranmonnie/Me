@@ -1,4 +1,5 @@
 import { FC } from "react";
+import { motion } from "framer-motion";
 
 interface worksProps {
   name: string;
@@ -9,11 +10,12 @@ interface worksProps {
 const Works: FC<worksProps> = ({ name, year, data }) => {
   return (
     <>
-      <div className="w-[99.7%] flex flex-col mb-36 gap-5 lg:mb-44">
-        <div className="">
-          <img
+      <div className="w-[99.7%] flex flex-col mb-36 gap-5 lg:mb-44 ">
+        <div className="w-full rounded-xl overflow-hidden">
+          <motion.img
+            whileHover={{scale:1.06}}
             src="https://res.cloudinary.com/djtlzuxfa/image/upload/v1703443457/Screenshot_147_ghd6mh.png"
-            className="object-cover rounded-xl w-full"
+            className="object-cover w-full "
             alt="///"
           />
         </div>
