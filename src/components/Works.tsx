@@ -14,6 +14,7 @@ const Works: FC<worksProps> = ({ name, year, data }) => {
         <div className="w-full rounded-xl overflow-hidden">
           <motion.img
             whileHover={{scale:1.06}}
+            transition={{duration:1}}
             src="https://res.cloudinary.com/djtlzuxfa/image/upload/v1703443457/Screenshot_147_ghd6mh.png"
             className="object-cover w-full "
             alt="///"
