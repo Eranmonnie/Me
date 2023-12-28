@@ -11,10 +11,10 @@ const Works: FC<worksProps> = ({ name, year, data }) => {
   return (
     <>
       <div className="w-[99.7%] flex flex-col mb-36 gap-5 lg:mb-44 ">
-        <div className="w-full rounded-xl overflow-hidden">
+        <div className="w-full rounded-xl overflow-hidden relative ">
           <motion.img
-            whileHover={{scale:1.06}}
-            transition={{duration:1}}
+            whileHover={{scale:1.03}}
+            transition={{duration:0.3, delay:0.1}}
             src="https://res.cloudinary.com/djtlzuxfa/image/upload/v1703443457/Screenshot_147_ghd6mh.png"
             className="object-cover w-full "
             alt="///"
