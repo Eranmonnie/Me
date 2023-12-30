@@ -11,14 +11,20 @@ const Works: FC<worksProps> = ({ name, year, data }) => {
   return (
     <>
       <div className="w-[99.7%] flex flex-col mb-36 gap-5 lg:mb-44 ">
-        <div className="w-full rounded-xl overflow-hidden relative ">
+        <div className="w-full rounded-xl overflow-hidden relative  ">
           <motion.img
-            whileHover={{scale:1.03}}
-            transition={{duration:0.3, delay:0.1}}
+            whileHover={{ scale: 1.03 }}
+            transition={{ duration: 0.3, delay: 0.1 }}
             src="https://res.cloudinary.com/djtlzuxfa/image/upload/v1703443457/Screenshot_147_ghd6mh.png"
             className="object-cover w-full "
             alt="///"
           />
+          <div className="hidden lg:absolute lg:top-[50%] lg:left-[50%] lg:translate-y-[-50%] lg:translate-x-[-50%] lg:w-44 lg:h-44 lg:bg-white lg:rounded-full lg:p-14 lg:flex lg:justify-center lg:items-center">
+              <h2 className="text-center text-lg">
+                view case
+              </h2>
+          </div>
+          
         </div>
 
         <div className="flex justify-between lg:gap-[21%]">
