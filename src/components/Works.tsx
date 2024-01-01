@@ -1,5 +1,6 @@
 import { FC } from "react";
-import { motion } from "framer-motion";
+import { motion, inView, animate } from "framer-motion";
+
 
 interface worksProps {
   name: string;
@@ -11,7 +12,11 @@ const Works: FC<worksProps> = ({ name, year, data }) => {
   return (
     <>
       <div className="w-[99.7%] flex flex-col mb-36 gap-5 lg:mb-44 ">
-        <div className="w-full rounded-xl overflow-hidden relative  ">
+        <motion.div className="w-full rounded-xl overflow-hidden relative"
+        initial={{ opacity:0 }}
+        whileInView={{opacity:1}}
+        transition={{duration:1}}
+        >
           <motion.img
             whileHover={{ scale: 1.03 }}
             transition={{ duration: 0.3, delay: 0.1 }}
@@ -25,7 +30,7 @@ const Works: FC<worksProps> = ({ name, year, data }) => {
               </h2>
           </div>
           
-        </div>
+        </motion.div>
 
         <div className="flex justify-between lg:gap-[21%]">
           <h3 className="text-lg lg:text-xl lg:w-[5%]">{`${name}`}&reg;</h3>
