@@ -29,7 +29,6 @@ const Works: FC<worksProps> = ({ name, year, data }) => {
     },
     animate: {
       scale: 1.03,
-
       transition: {
         duration: 0.3,
         delay: 0.1,
@@ -40,13 +39,17 @@ const Works: FC<worksProps> = ({ name, year, data }) => {
   const popupvariance = {
     initial: {
       opacity: 0,
+      x: -80,
+      y: -80,
+      scale: 0
     },
     animate: {
-      opacity: 0.6,
-
+      opacity: 0.8,
+      scale: 1,
+  
       transition: {
-        duration: 0.3,
-        delay: 0.1,
+        duration: 0.4,
+        delay: 0.2,
       },
     },
   };
@@ -61,7 +64,7 @@ const Works: FC<worksProps> = ({ name, year, data }) => {
 
   return (
     <>
-      <div className="w-[99.7%] flex flex-col mb-36 gap-5 lg:mb-44 ">
+      <div className="w-[99.7%] flex flex-col mb-36 gap-5 lg:mb-28 ">
         <motion.div
           className="w-full rounded-xl overflow-hidden relative"
           variants={worksvariants}
@@ -69,14 +72,13 @@ const Works: FC<worksProps> = ({ name, year, data }) => {
           whileInView="visible"
           onHoverStart={handleHover}
           onHoverEnd={handleHoverEnd}
-          whileHover={{ scale: 1 }}
         >
           <motion.img
             variants={imagevariance}
             initial="initial"
             animate={controls}
             src="https://res.cloudinary.com/djtlzuxfa/image/upload/v1703443457/Screenshot_147_ghd6mh.png"
-            className="object-cover w-full "
+            className="object-cover w-full lg:h-[88vh] "
             alt="///"
           />
           <motion.div

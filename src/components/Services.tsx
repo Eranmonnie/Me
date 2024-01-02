@@ -8,7 +8,7 @@ const Services: FC<servicesProps> = ({ data }) => {
   return (
     <>
       <div className="mt-10 mb-10">
-        <div className="lg:flex lg:flex-row lg:gap-[11%] lg:py-20 lg:justify-center ">
+        <div className="lg:flex lg:flex-row lg:gap-[11%] lg:py-16 lg:justify-center ">
           <h3 className="hidden lg:inline ">01.</h3>
           <div className="text-3xl m">
             <div className="mb-5">

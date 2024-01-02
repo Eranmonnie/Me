@@ -30,7 +30,7 @@ const About = () => {
         heading={`Defining the business goal and `}
         data={`Everything starts by getting clarity around what we are trying to achieve. What should the website’s main goal be? What does project succes mean for your business? Where will the business be in 3 years? These are just some questions which we’ll work together on to define the best path forward when it comes to your digital needs.`}
       />
-      <div className="mt-10 mb-40 lg:mb-80">
+      <div className="mt-10 mb-40 lg:mb-60">
         <Solution
           heading={`Strategic visual design and art direction.`}
           data={`The visual language of the website will define how the visitor connects with the product or service. Knowing who the target audience is and what everybody else is doing in the field is crucial to get the best result from the website we’ll create together.`}
@@ -43,6 +43,8 @@ const About = () => {
         </h2>
         <Button />
       </div>
+
+      <hr className="mt-20" />
 
       <Services
         data={`We’ll have a look at what content should be on the site, which shouldn’t and what goes on which page. By thinking about the structure in user funnels we’ll define a path for the user towards conversion.`}
