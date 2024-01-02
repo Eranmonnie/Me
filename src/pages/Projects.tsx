@@ -8,7 +8,7 @@ const Projects = () => {
   return (
     <>
       <Banner first={`selected works`} second={`(2020-2023)`} align={true} />
-      <div className="mb-40">
+      <div className="mb-48">
         <Hero
           message={`Have a look at some of the projects I’ve worked on. They vary from lifstand alone front-end applications to full fledged fulstack ones.`}
         />

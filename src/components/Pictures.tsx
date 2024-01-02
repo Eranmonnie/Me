@@ -3,7 +3,7 @@ import { FC } from "react";
 const Pictures: FC = () => {
   return (
     <>
-      <div className="flex flex-col gap-4 lg:flex-row lg:justify-center w-full lg:h-96">
+      <div className="flex flex-col gap-4 lg:flex-row lg:justify-center w-full lg:h-[550px]">
         <img
           src="https://res.cloudinary.com/djtlzuxfa/image/upload/v1703443457/Screenshot_147_ghd6mh.png"
           className="object-cover rounded-xl w-full lg:w-[24%]"

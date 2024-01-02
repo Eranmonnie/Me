@@ -10,18 +10,18 @@ interface worksProps {
 const Works: FC<worksProps> = ({ name, year, data }) => {
   const controls = useAnimation();
 
-  const worksvariants = {
-    initial: {
-      opacity: 0,
-    },
-    visible: {
-      opacity: 1,
+  // const worksvariants = {
+  //   initial: {
+  //     opacity: 0,
+  //   },
+  //   visible: {
+  //     opacity: 1,
 
-      transition: {
-        duration: 1,
-      },
-    },
-  };
+  //     transition: {
+  //       duration: 1,
+  //     },
+  //   },
+  // };
 
   const imagevariance = {
     initial: {
@@ -67,9 +67,7 @@ const Works: FC<worksProps> = ({ name, year, data }) => {
       <div className="w-[99.7%] flex flex-col mb-36 gap-5 lg:mb-28 ">
         <motion.div
           className="w-full rounded-xl overflow-hidden relative"
-          variants={worksvariants}
-          initial="initial"
-          whileInView="visible"
+          // variants={worksvariants}
           onHoverStart={handleHover}
           onHoverEnd={handleHoverEnd}
         >
