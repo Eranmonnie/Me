@@ -27,9 +27,9 @@ function Home() {
       </motion.div>
 
       <motion.div
-      initial={{opacity:0, y:30}}
-      animate={{opacity:2, y:0}}
-      transition={{delay:0.5, type:'spring', stiffness:40}}
+        initial={{ opacity: 0, y: 30 }}
+        animate={{ opacity: 2, y: 0 }}
+        transition={{ delay: 0.5, type: "spring", stiffness: 40 }}
       >
         <Button />
       </motion.div>
@@ -40,6 +40,9 @@ function Home() {
       </div>
 
       <Works
+        image={
+          "https://res.cloudinary.com/djtlzuxfa/image/upload/v1704533022/Screenshot_152_kqdwm5.png"
+        }
         name={`Nerflix`}
         year={`2023`}
         data={`Ecommerce website for the first smart mailbox Custo®.`}
@@ -54,16 +57,21 @@ function Home() {
         button={false}
       />
       <Works
+        image={
+          "https://res.cloudinary.com/djtlzuxfa/image/upload/v1704533022/Screenshot_152_kqdwm5.png"
+        }
         name={`Nerflix`}
         year={`2023`}
         data={`Ecommerce website for the first smart mailbox Custo®.`}
       />
       <Works
+        image={
+          "https://res.cloudinary.com/djtlzuxfa/image/upload/v1704533022/Screenshot_152_kqdwm5.png"
+        }
         name={`Nerflix`}
         year={`2023`}
         data={`Ecommerce website for the first smart mailbox Custo®.`}
       />
-
       <Question
         one={`Looking to grow your business through the power of great digital design? `}
         two={`Reach out to get the conversation started about your digital design needs. `}

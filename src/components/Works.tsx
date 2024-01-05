@@ -2,12 +2,13 @@ import { FC } from "react";
 import { useAnimation, motion } from "framer-motion";
 
 interface worksProps {
+  image: string;
   name: string;
   year: string;
   data: string;
 }
 
-const Works: FC<worksProps> = ({ name, year, data }) => {
+const Works: FC<worksProps> = ({ image, name, year, data }) => {
   const controls = useAnimation();
 
   // const worksvariants = {
@@ -41,12 +42,12 @@ const Works: FC<worksProps> = ({ name, year, data }) => {
       opacity: 0,
       x: -80,
       y: -80,
-      scale: 0
+      scale: 0,
     },
     animate: {
       opacity: 0.8,
       scale: 1,
-  
+
       transition: {
         duration: 0.4,
         delay: 0.2,
@@ -75,7 +76,7 @@ const Works: FC<worksProps> = ({ name, year, data }) => {
             variants={imagevariance}
             initial="initial"
             animate={controls}
-            src="https://res.cloudinary.com/djtlzuxfa/image/upload/v1703443457/Screenshot_147_ghd6mh.png"
+            src={image}
             className="object-cover w-full lg:h-[88vh] "
             alt="///"
           />
