@@ -10,7 +10,7 @@ export const works: work[] = [
   {
     id: 1,
     image:
-      "https://res.cloudinary.com/djtlzuxfa/image/upload/v1704533022/Screenshot_152_kqdwm5.png",
+      "https://res.cloudinary.com/djtlzuxfa/image/upload/v1704538074/Screenshot_152_qbszj0.png",
     name: "Nerflix",
     data: "Ecommerce website for the first smart mailbox Custo®",
     year: "2023",
@@ -18,15 +18,15 @@ export const works: work[] = [
   {
     id: 2,
     image:
-      "https://res.cloudinary.com/djtlzuxfa/image/upload/v1704533021/Screenshot_151_ceqqjs.png",
-    name: "Laraacast",
+      "https://res.cloudinary.com/djtlzuxfa/image/upload/v1704538071/Screenshot_151_j6ghk7.png",
+    name: "Laracast",
     data: "Ecommerce website for the first smart mailbox Custo®",
     year: "2023",
   },
   {
     id: 3,
     image:
-      "https://res.cloudinary.com/djtlzuxfa/image/upload/v1704533022/Screenshot_152_kqdwm5.png",
+      "https://res.cloudinary.com/djtlzuxfa/image/upload/v1704538074/Screenshot_152_qbszj0.png",
     name: "Nerflix",
     data: "Ecommerce website for the first smart mailbox Custo®",
     year: "2023",
@@ -34,7 +34,7 @@ export const works: work[] = [
   {
     id: 4,
     image:
-      "https://res.cloudinary.com/djtlzuxfa/image/upload/v1704533022/Screenshot_152_kqdwm5.png",
+      "https://res.cloudinary.com/djtlzuxfa/image/upload/v1704538074/Screenshot_152_qbszj0.png",
     name: "Nerflix",
     data: "Ecommerce website for the first smart mailbox Custo®",
     year: "2023",
@@ -42,7 +42,7 @@ export const works: work[] = [
   {
     id: 5,
     image:
-      "https://res.cloudinary.com/djtlzuxfa/image/upload/v1704533022/Screenshot_152_kqdwm5.png",
+      "https://res.cloudinary.com/djtlzuxfa/image/upload/v1704538074/Screenshot_152_qbszj0.png",
     name: "Nerflix",
     data: "Ecommerce website for the first smart mailbox Custo®",
     year: "2023",
@@ -50,7 +50,7 @@ export const works: work[] = [
   {
     id: 6,
     image:
-      "https://res.cloudinary.com/djtlzuxfa/image/upload/v1704533022/Screenshot_152_kqdwm5.png",
+      "https://res.cloudinary.com/djtlzuxfa/image/upload/v1704538074/Screenshot_152_qbszj0.png",
     name: "Nerflix",
     data: "Ecommerce website for the first smart mailbox Custo®",
     year: "2023",
