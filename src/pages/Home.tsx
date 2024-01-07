@@ -22,7 +22,7 @@ function Home() {
         className="mb-12"
       >
         <Hero
-          message={`Through strategic art direction and webdesign I help companies around the world grow their business.`}
+          message={`I'm not just a full-stack engineer, I'm a digital architect with a passion for bringing web development projects to life!`}
         />
       </motion.div>
 
@@ -40,12 +40,10 @@ function Home() {
       </div>
 
       <Works
-        image={
-          "https://res.cloudinary.com/djtlzuxfa/image/upload/v1704533022/Screenshot_152_kqdwm5.png"
-        }
+        image={`https://res.cloudinary.com/djtlzuxfa/image/upload/v1704538074/Screenshot_152_qbszj0.png`}
         name={`Nerflix`}
         year={`2023`}
-        data={`Ecommerce website for the first smart mailbox Custo®.`}
+        data={`A cinematic journey crafted in React and stylized with Tailwind CSS.`}
       />
 
       <Question
@@ -58,7 +56,7 @@ function Home() {
       />
       <Works
         image={
-          "https://res.cloudinary.com/djtlzuxfa/image/upload/v1704533022/Screenshot_152_kqdwm5.png"
+          "https://res.cloudinary.com/djtlzuxfa/image/upload/v1704538074/Screenshot_152_qbszj0.png"
         }
         name={`Nerflix`}
         year={`2023`}
@@ -66,7 +64,7 @@ function Home() {
       />
       <Works
         image={
-          "https://res.cloudinary.com/djtlzuxfa/image/upload/v1704533022/Screenshot_152_kqdwm5.png"
+          "https://res.cloudinary.com/djtlzuxfa/image/upload/v1704538074/Screenshot_152_qbszj0.png"
         }
         name={`Nerflix`}
         year={`2023`}
