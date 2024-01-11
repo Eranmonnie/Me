@@ -16,7 +16,7 @@ const About = () => {
         message={`Get to know more about my approach, process, services and way of working. Get to see what i do when i'm not on my laptop while you're at it.`}
       />
       <div className="mt-28">
-        <Profile />
+        <Profile image={`https://res.cloudinary.com/djtlzuxfa/image/upload/v1703443457/Screenshot_147_ghd6mh.png`} />
       </div>
 
       <div className="mb-20">

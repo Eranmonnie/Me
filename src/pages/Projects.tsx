@@ -19,6 +19,7 @@ const Projects = () => {
           works.map(work=>{
             return(
               <Works
+              id = {work.id}
               image={work.image}
               name = {work.name}
               year = {work.year}
