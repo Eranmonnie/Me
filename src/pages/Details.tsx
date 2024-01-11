@@ -1,5 +1,4 @@
-import React from 'react'
-
+import Profile from "../components/Profile";
 const Details = () => {
     
   return (
@@ -9,10 +8,12 @@ const Details = () => {
     <h1>(2020)</h1>
    </div>
 
-   <div>
-    <h4 className='text-xl text-left lg:text-4xl lg:w-[53%] font-inter-tight-regular '>Ecommerse website for the smartbox cuso</h4>
+   <div className='flex flex-col gap-10 lg:flex-row lg:justify-between lg:gap-0'>
+    <h4 className='text-xl lg:text-left lg:text-4xl lg:w-[50%] font-inter-tight-regular '>Ecommerse website for the smartbox cuso</h4>
+    <h4 className='text-xl lg:text-right lg:text-4xl lg:w-[50%] font-inter-tight-regular '>Discover</h4>
    </div>
-   <h4 className='mt-10 text-xl text-left lg:text-4xl lg:w-[53%] font-inter-tight-regular '>Discover</h4>
+
+    <Profile/>
    </>
   )
 }
