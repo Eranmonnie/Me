@@ -40,6 +40,7 @@ function Home() {
       </div>
 
       <Works
+        id ={4}
         image={`https://res.cloudinary.com/djtlzuxfa/image/upload/v1704538074/Screenshot_152_qbszj0.png`}
         name={`Nerflix`}
         year={`2023`}
@@ -55,6 +56,7 @@ function Home() {
         button={false}
       />
       <Works
+        id ={5}
         image={
           "https://res.cloudinary.com/djtlzuxfa/image/upload/v1704538074/Screenshot_152_qbszj0.png"
         }
@@ -63,6 +65,7 @@ function Home() {
         data={`Ecommerce website for the first smart mailbox Custo®.`}
       />
       <Works
+      id ={6}
         image={
           "https://res.cloudinary.com/djtlzuxfa/image/upload/v1704538074/Screenshot_152_qbszj0.png"
         }
