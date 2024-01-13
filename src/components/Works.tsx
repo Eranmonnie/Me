@@ -65,12 +65,9 @@ const Works: FC<worksProps> = ({ image, name, year, data, id }) => {
     controls.start("initial");
   };
 
-  console.log(id)
-
   return (
     <>
       <Link to={`/projects/${id}`}>
-
         <div className="w-[99.7%] flex flex-col mb-36 gap-5 lg:mb-28 ">
           <motion.div
             className="w-full rounded-xl overflow-hidden relative"
