@@ -11,11 +11,18 @@ interface work {
 }
 
 const Details = () => {
-  
-  const param = useParams();
-  const id: Number = parseInt(param.id);
-  const data: work[] = works.filter((work) => work.id === id);
-  console.log(data);
+  const { id } = useParams();
+  const numid: number | undefined = id ? parseInt(id, 10) : undefined;
+  4;
+  let data: work[] = [];
+
+  if (numid !== undefined) {
+    data = works.filter((work) => work.id === numid);
+    console.log(data);
+  } else {
+    console.error("Invalid id in the URL");
+    //end up redirecting to home page
+  }
 
   return (
     <>
@@ -36,7 +43,7 @@ const Details = () => {
               </h4>
             </div>
 
-            <Profile image ={data.image} />
+            <Profile image={data.image} />
           </div>
         );
       })}
