@@ -18,7 +18,6 @@ const Details = () => {
 
   if (numid !== undefined) {
     data = works.filter((work) => work.id === numid);
-    console.log(data);
   } else {
     console.error("Invalid id in the URL");
     //end up redirecting to home page
