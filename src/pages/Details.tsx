@@ -2,6 +2,7 @@ import Profile from "../components/Profile";
 import { useParams } from "react-router-dom";
 import { works } from "../works";
 import ClientDetais from "../components/ClientDetais";
+import Footer from "../components/Footer";
 
 
 interface work {
@@ -67,6 +68,7 @@ const Details = () => {
           </div>
         );
       })}
+      <Footer />
     </>
   );
 };
