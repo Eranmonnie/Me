@@ -52,7 +52,6 @@ const Works: FC<worksProps> = ({ image, name, year, data, id }) => {
 
       transition: {
         duration: 0.4,
-        delay: 0.2,
       },
     },
   };
