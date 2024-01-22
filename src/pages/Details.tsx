@@ -4,7 +4,6 @@ import { works } from "../works";
 import ClientDetais from "../components/ClientDetais";
 import Footer from "../components/Footer";
 
-
 interface work {
   id: number;
   image: string;
@@ -64,6 +63,24 @@ const Details = () => {
                 </a>
                 <ClientDetais />
               </div>
+            </div>
+
+            <div className="flex flex-col gap-5 w-full">
+              <img
+                src="https://res.cloudinary.com/djtlzuxfa/image/upload/v1703443457/Screenshot_147_ghd6mh.png"
+                className="object-cover rounded-xl w-full"
+                alt="///"
+              />
+              <img
+                src="https://res.cloudinary.com/djtlzuxfa/image/upload/v1703443457/Screenshot_147_ghd6mh.png"
+                className="object-cover rounded-xl w-full"
+                alt="///"
+              />
+              <img
+                src="https://res.cloudinary.com/djtlzuxfa/image/upload/v1703443457/Screenshot_147_ghd6mh.png"
+                className="object-cover rounded-xl w-full "
+                alt="///"
+              />
             </div>
           </div>
         );
