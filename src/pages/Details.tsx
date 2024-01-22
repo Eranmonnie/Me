@@ -50,7 +50,7 @@ const Details = () => {
               <h2 className="text-xl text-left lg:text-xl font-inter-tight-regular">
                 (002)
               </h2>
-              <div className="lg:w-[55%]">
+              <div className="lg:w-[52%]">
                 <h2 className="text-2xl text-left lg:text-3xl font-inter-tight-regular">
                   Richard wanted to be seen more as a creative developer to
                   attract more of creative development work. I helped him with
@@ -59,7 +59,7 @@ const Details = () => {
                 </h2>
 
                 <a href="#" className="">
-                  <h3 className="mt-20 mb-10">view website live version</h3>
+                  <h3 className="mt-20 mb-10 text-lg">view website live version</h3>
                 </a>
                 <ClientDetais />
               </div>

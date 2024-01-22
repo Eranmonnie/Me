@@ -3,7 +3,7 @@
 const ClientDetais = () => {
   return (
     <>
-      <div className="flex flex-col">
+      <div className="flex flex-col text-lg">
         <div className="flex py-10 border-y-2">
           <h3 className="mr-auto">Client</h3>
           <h3>Richard Okoye</h3>
