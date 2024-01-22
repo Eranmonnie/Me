@@ -41,7 +41,10 @@ const About = () => {
         <h2 className="font-inter-tight-bold uppercase text-7xl lg:text-9xl">
           services
         </h2>
+        <div className="lg:flex lg:items-end">
         <Button />
+        </div>
+        
       </div>
 
       <hr className="mt-20" />
