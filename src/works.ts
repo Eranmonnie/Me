@@ -55,4 +55,12 @@ export const works: work[] = [
     data: "A Netflix look-alike, made with React and styled with Tailwind CSS.",
     year: "2023",
   },
+  {
+    id: 7,
+    image:
+      "https://res.cloudinary.com/djtlzuxfa/image/upload/v1704538074/Screenshot_152_qbszj0.png",
+    name: "Nerflix",
+    data: "A Netflix look-alike, made with React and styled with Tailwind CSS.",
+    year: "2023",
+  },
 ];
