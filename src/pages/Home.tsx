@@ -44,15 +44,12 @@ function Home() {
         image={`https://res.cloudinary.com/djtlzuxfa/image/upload/v1704538074/Screenshot_152_qbszj0.png`}
         name={`Nerflix`}
         year={`2023`}
-        data={`A cinematic journey crafted in React and stylized with Tailwind CSS.`}
+        data={`A Netflix look-alike, made with React and styled with Tailwind CSS.`}
       />
 
       <Question
-        one={`As a digital designer and art
-     director I help companies and organisations around
-     the world connect with their audience and grow their business.`}
-        two={`Projects can be done directly with
-      clients or in a supporting role for agencie and studios from around the world. `}
+        one={`As a full-stack software engineer, I specialize in creating seamless digital experiences and robust solutions for businesses worldwide, bridging the gap between clients and effective software solutions.`}
+        two={`I am dedicated to crafting innovative solutions that enhance user engagement and drive business growth. `}
         button={false}
       />
       <Works
