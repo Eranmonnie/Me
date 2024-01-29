@@ -59,7 +59,8 @@
 
 body{
   font-family: "Inter Regular", sans-serif;
-  padding: 0.80rem
+  padding: 0.80rem;
+  background-color:#f8f7f8;
 }
 
 @media (min-width: 768px) {
