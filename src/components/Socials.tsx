@@ -3,7 +3,7 @@ import { FC } from "react";
 const Socials: FC = () => {
   return (
     <>
-      <div className="flex flex-col gap-3 lg:flex-row ">
+      <div className="flex flex-col gap-3 lg:flex-row   text-rose-500">
         <div className="flex justify-center gap-[20%] ">
           <h3 className="text-xl">Github</h3>
           <h3 className="text-xl">Twitter</h3>

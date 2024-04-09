@@ -30,12 +30,12 @@ const Details = () => {
       {data.map((data) => {
         return (
           <div>
-            <div className=" pb-20 mt-10 text-4xl font-inter-tight-bold uppercase lg:text-8xl flex flex-col lg:flex-row lg:justify-between">
+            <div className=" pb-20 mt-10 text-4xl font-inter-tight-bold uppercase lg:text-8xl flex flex-col lg:flex-row lg:justify-between  text-rose-500">
               <h1>{data.name}</h1>
               <h1>{`(${data.year})`}</h1>
             </div>
 
-            <div className="flex flex-col gap-10 lg:flex-row lg:justify-between lg:gap-0">
+            <div className="flex flex-col gap-10 lg:flex-row lg:justify-between lg:gap-0 text-gray-500">
               <h4 className="text-xl lg:text-left lg:text-4xl lg:w-[50%] font-inter-tight-regular ">
                 {data.data}
               </h4>
@@ -46,7 +46,7 @@ const Details = () => {
 
             <Profile image={data.image} />
 
-            <div className="flex flex-col gap-3 pt-10 lg:flex-row lg:gap-[22%] ">
+            <div className="flex flex-col gap-3 pt-10 lg:flex-row lg:gap-[22%] text-gray-500">
               <h2 className="text-xl text-left lg:text-xl font-inter-tight-regular">
                 (002)
               </h2>

@@ -11,7 +11,7 @@ const Banner: FC<bannerProps> = ({ first, second, align }) => {
   return (
     <>
       {align ? (
-        <div className="flex flex-col mt-5 lg:mt-10">
+        <div className="flex text-rose-500 flex-col mt-5 lg:mt-10">
           <motion.h1
           initial={{opacity:0, y:30}}
           animate={{opacity:1, y:0}}
@@ -28,7 +28,7 @@ const Banner: FC<bannerProps> = ({ first, second, align }) => {
           </motion.h1>
         </div>
       ) : (
-        <div className="flex flex-col mt-40  text-center mb-10 ">
+        <div className="flex flex-col mt-40  text-center mb-10  text-rose-500 ">
           <motion.h1
            initial={{opacity:0, y:30}}
            animate={{opacity:1, y:0}}

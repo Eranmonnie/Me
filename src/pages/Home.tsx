@@ -34,7 +34,7 @@ function Home() {
         <Button />
       </motion.div>
 
-      <div className="flex justify-between mt-32 mb-8">
+      <div className="flex justify-between mt-32 mb-8 text-gray-500">
         <h3 className="text-lg lg:text-2xl">(Selected works)</h3>
         <h3 className="text-lg lg:text-2xl">Discover↓</h3>
       </div>

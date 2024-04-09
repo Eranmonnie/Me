@@ -7,7 +7,8 @@ import Details from "./pages/Details";
 
 const App = () => {
   return (
-    <>
+    <div className=" p-[0.80rem] md:px-[3rem] md:py-[2rem]">
+
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -15,7 +16,8 @@ const App = () => {
         <Route path="/about" element={<About />} />
         <Route path="/projects/:id" element={<Details />} />
       </Routes>
-    </>
+    
+    </div>
   );
 };
 

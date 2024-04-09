@@ -1,70 +1,143 @@
 @tailwind base;
-@tailwind components;
-@tailwind utilities;
+  @tailwind components;
+  @tailwind utilities;
 
-@font-face {
-  font-family: "Inter Bold";
-  src: url("./assets/Inter-Bold.ttf");
-}
+  @layer base {
+    :root {
+      --background: 0 0% 100%;
+      --foreground: 222.2 84% 4.9%;
 
-@font-face {
-  font-family: "Inter Regular";
-  src: url("./assets/Inter-Regular.ttf");
-}
+      --card: 0 0% 100%;
+      --card-foreground: 222.2 84% 4.9%;
 
-@font-face {
-  font-family: "Inter Xbold";
-  src: url("./assets/Inter-ExtraBold.ttf");
-}
+      --popover: 0 0% 100%;
+      --popover-foreground: 222.2 84% 4.9%;
 
-@font-face {
-  font-family: "Inter Light";
-  src: url("./assets/Inter-Light.ttf");
-}
+      --primary: 222.2 47.4% 11.2%;
+      --primary-foreground: 210 40% 98%;
 
-@font-face {
-  font-family: "Inter Xlight";
-  src: url("./assets/Inter-ExtraLight.ttf");
-}
+      --secondary: 210 40% 96.1%;
+      --secondary-foreground: 222.2 47.4% 11.2%;
 
-@font-face {
-  font-family: "Inter Medium";
-  src: url("./assets/Inter-Medium.ttf");
-}
+      --muted: 210 40% 96.1%;
+      --muted-foreground: 215.4 16.3% 46.9%;
 
-@font-face {
-  font-family: "Inter Semibold";
-  src: url("./assets/Inter-SemiBold.ttf");
-}
+      --accent: 210 40% 96.1%;
+      --accent-foreground: 222.2 47.4% 11.2%;
 
-@font-face {
-  font-family: "Inter Thin";
-  src: url("./assets/Inter-Thin.ttf");
-}
+      --destructive: 0 84.2% 60.2%;
+      --destructive-foreground: 210 40% 98%;
 
-@font-face {
-  font-family: "Inter Tight Bold";
-  src: url("./assets/InterTight-Bold.ttf");
-}
+      --border: 214.3 31.8% 91.4%;
+      --input: 214.3 31.8% 91.4%;
+      --ring: 222.2 84% 4.9%;
 
-@font-face {
-  font-family: "Inter Tight Semibold";
-  src: url("./assets/InterTight-SemiBold.ttf");
-}
+      --radius: 0.5rem;
+    }
 
-@font-face {
-  font-family: "Inter Tight Regular";
-  src: url("./assets/InterTight-Regular.ttf");
-}
+    .dark {
+      --background: 222.2 84% 4.9%;
+      --foreground: 210 40% 98%;
 
-body{
-  font-family: "Inter Regular", sans-serif;
-  padding: 0.80rem;
-  background-color:#f8f7f8;
-}
+      --card: 222.2 84% 4.9%;
+      --card-foreground: 210 40% 98%;
 
-@media (min-width: 768px) {
-  body {
-      padding: 2rem 3rem;
+      --popover: 222.2 84% 4.9%;
+      --popover-foreground: 210 40% 98%;
+
+      --primary: 210 40% 98%;
+      --primary-foreground: 222.2 47.4% 11.2%;
+
+      --secondary: 217.2 32.6% 17.5%;
+      --secondary-foreground: 210 40% 98%;
+
+      --muted: 217.2 32.6% 17.5%;
+      --muted-foreground: 215 20.2% 65.1%;
+
+      --accent: 217.2 32.6% 17.5%;
+      --accent-foreground: 210 40% 98%;
+
+      --destructive: 0 62.8% 30.6%;
+      --destructive-foreground: 210 40% 98%;
+
+      --border: 217.2 32.6% 17.5%;
+      --input: 217.2 32.6% 17.5%;
+      --ring: 212.7 26.8% 83.9%;
+    }
   }
-}
+
+  @font-face {
+    font-family: "Inter Bold";
+    src: url("./assets/Inter-Bold.ttf");
+  }
+  
+  @font-face {
+    font-family: "Inter Regular";
+    src: url("./assets/Inter-Regular.ttf");
+  }
+  
+  @font-face {
+    font-family: "Inter Xbold";
+    src: url("./assets/Inter-ExtraBold.ttf");
+  }
+  
+  @font-face {
+    font-family: "Inter Light";
+    src: url("./assets/Inter-Light.ttf");
+  }
+  
+  @font-face {
+    font-family: "Inter Xlight";
+    src: url("./assets/Inter-ExtraLight.ttf");
+  }
+  
+  @font-face {
+    font-family: "Inter Medium";
+    src: url("./assets/Inter-Medium.ttf");
+  }
+  
+  @font-face {
+    font-family: "Inter Semibold";
+    src: url("./assets/Inter-SemiBold.ttf");
+  }
+  
+  @font-face {
+    font-family: "Inter Thin";
+    src: url("./assets/Inter-Thin.ttf");
+  }
+  
+  @font-face {
+    font-family: "Inter Tight Bold";
+    src: url("./assets/InterTight-Bold.ttf");
+  }
+  
+  @font-face {
+    font-family: "Inter Tight Semibold";
+    src: url("./assets/InterTight-SemiBold.ttf");
+  }
+  
+  @font-face {
+    font-family: "Inter Tight Regular";
+    src: url("./assets/InterTight-Regular.ttf");
+  }
+  
+  body{
+    font-family: "Inter Regular", sans-serif;
+    /* padding: 0.80rem; */
+    background-color:#f8f7f8;
+  }
+  
+  /* @media (min-width: 768px) {
+    body {
+        padding: 2rem 3rem;
+    }
+  } */
+  
+  @layer base {
+    * {
+      @apply border-border;
+    }
+    body {
+      @apply bg-background text-foreground;
+    }
+  }

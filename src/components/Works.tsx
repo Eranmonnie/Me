@@ -67,7 +67,7 @@ const Works: FC<worksProps> = ({ image, name, year, data, id }) => {
   return (
     <>
       <Link to={`/projects/${id}`}>
-        <div className="w-[99.7%] flex flex-col mb-36 gap-5 lg:mb-28 ">
+        <div className="w-[99.7%] flex flex-col mb-36 gap-5 lg:mb-28 text-gray-500 ">
           <motion.div
             className="w-full rounded-xl overflow-hidden relative"
             // variants={worksvariants}
