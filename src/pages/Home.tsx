@@ -1,4 +1,3 @@
-import Works from "../components/Works";
 import Question from "../components/Question";
 import Banner from "../components/Banner";
 import Hero from "../components/Hero";
