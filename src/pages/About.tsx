@@ -15,7 +15,7 @@ const About = () => {
       <Hero
         message={`Get to know more about my approach, process, services and way of working. Get to see what i do when i'm not on my laptop while you're at it.`}
       />
-      <div className="mt-28">
+      <div className="">
         <Profile image={`https://res.cloudinary.com/djtlzuxfa/image/upload/v1703443457/Screenshot_147_ghd6mh.png`} />
       </div>
 
@@ -30,14 +30,14 @@ const About = () => {
         heading={`Defining the business goal and `}
         data={`Everything starts by getting clarity around what we are trying to achieve. What should the website’s main goal be? What does project succes mean for your business? Where will the business be in 3 years? These are just some questions which we’ll work together on to define the best path forward when it comes to your digital needs.`}
       />
-      <div className="mt-10 mb-40 lg:mb-60">
+      <div className="mt-10 mb-40 lg:mb-30">
         <Solution
           heading={`Strategic visual design and art direction.`}
           data={`The visual language of the website will define how the visitor connects with the product or service. Knowing who the target audience is and what everybody else is doing in the field is crucial to get the best result from the website we’ll create together.`}
         />
       </div>
 
-      <div className="flex flex-col gap-5 lg:flex-row lg:justify-between">
+      <div className="flex flex-col gap-5 lg:flex-row lg:justify-between text-rose-600">
         <h2 className="font-inter-tight-bold uppercase text-7xl lg:text-9xl">
           services
         </h2>

@@ -10,7 +10,7 @@ const Projects = () => {
   return (
     <>
       <Banner first={`selected works`} second={`(2020-2023)`} align={true} />
-      <div className="mb-48">
+      <div className="mb-32">
         <Hero
           message={`Have a look at some of the projects I’ve worked on. They vary from presonal to academic front-end applications and full fledged fulstack ones.`}
         />

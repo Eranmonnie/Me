@@ -8,7 +8,7 @@ interface solutionProps {
 const Solution: FC<solutionProps> = ({ heading, data }) => {
   return (
     <>
-      <div className="lg:w-[74%] lg:ml-auto text-xl">
+      <div className="lg:w-[74%] lg:ml-auto text-xl text-gray-600">
         <div className="lg:flex lg:flex-row lg:gap-[70px]">
           <h3 className="hidden lg:inline ">01.</h3>
 

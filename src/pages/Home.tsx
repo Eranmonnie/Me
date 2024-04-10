@@ -22,7 +22,7 @@ function Home() {
         className="mb-12"
       >
         <Hero
-          message={`I'm not just a full-stack engineer, I'm a digital architect with a passion for bringing web development projects to life!`}
+          message={`I'm not just a Full-stack engineer, I'm a digital architect with a passion for bringing web development projects to life!`}
         />
       </motion.div>
 
@@ -30,11 +30,12 @@ function Home() {
         initial={{ opacity: 0, y: 30 }}
         animate={{ opacity: 2, y: 0 }}
         transition={{ delay: 0.5, type: "spring", stiffness: 40 }}
+        className="mb-10"
       >
         <Button />
       </motion.div>
 
-      <div className="flex justify-between mt-24 mb-8 text-gray-500">
+      {/* <div className="flex justify-between mt-24 mb-8 text-gray-500">
         <h3 className="text-lg lg:text-3xl">Selected works</h3>
         <h3 className="text-lg lg:text-3xl">Discover↓</h3>
       </div>
@@ -45,14 +46,14 @@ function Home() {
         name={`Nerflix`}
         year={`2023`}
         data={`A Netflix look-alike, made with React and styled with Tailwind CSS.`}
-      />
+      /> */}
 
       <Question
         one={`As a full-stack software engineer, I specialize in creating seamless digital experiences and robust solutions for businesses worldwide, bridging the gap between clients and effective software solutions.`}
         two={`I am dedicated to crafting innovative solutions that enhance user engagement and drive business growth. `}
         button={false}
       />
-      <Works
+      {/* <Works
         id ={5}
         image={
           "https://res.cloudinary.com/djtlzuxfa/image/upload/v1704538074/Screenshot_152_qbszj0.png"
@@ -69,7 +70,7 @@ function Home() {
         name={`Nerflix`}
         year={`2023`}
         data={`Ecommerce website for the first smart mailbox Custo®.`}
-      />
+      /> */}
       <Question
         one={`Looking to grow your business through the power of great digital design? `}
         two={`Reach out to get the conversation started about your digital design needs. `}
