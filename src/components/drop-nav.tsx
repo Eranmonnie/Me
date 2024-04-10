@@ -8,7 +8,6 @@ import {
 } from "@/components/ui/dropdown-menu";
 import { HomeIcon, Phone, Smile, Wrench } from "lucide-react";
 
-import React from "react";
 import { Link } from "react-router-dom";
 
 const DropdownNav = () => {
