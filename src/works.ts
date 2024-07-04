@@ -21,7 +21,7 @@ export const works: work[] = [
     id: 2,
     image:
       "https://res.cloudinary.com/djtlzuxfa/image/upload/v1704538074/Screenshot_152_qbszj0.png",
-    name: "silhouette®",
+    name: "Silhouette®",
     data: "A  Profile Management Tool, made  to allow businesses share their persona in an organized way.",
     year: "2023",
     languages:["Nextjs", "Tailwind ", "MySQL", "ShadcnUI" ]

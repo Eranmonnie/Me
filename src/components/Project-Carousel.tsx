@@ -29,7 +29,7 @@ export const ProjectCarousel = () => {
                     />
 
                     <div className="flex-1  space-y-2 text-[#f8f7f8]">
-                      <h3 className="text-xl md:text-2xl font-semibold">Project {String(work.id)}: {work.name}</h3>
+                      <h3 className="text-xl md:text-2xl font-semibold"> {work.name}</h3>
                       <p className="">
                         {work.data}
                       </p>
