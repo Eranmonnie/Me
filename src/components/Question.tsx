@@ -42,7 +42,7 @@ const Question = () => {
 
             <div className="flex justify-between">
               <h2 className="text-md md:text-lg font-inter-tight-regular">Backend Engineer @ Bubmble Techonologies,Lagos</h2>
-              <h2 className="text-md mg:text-lg font-inter-tight-regular">May - August, 2023</h2>
+              <h2 className="text-md md:text-lg font-inter-tight-regular">May - August, 2023</h2>
             </div>
 
           </div>
