@@ -9,7 +9,6 @@ const Footer: FC = () => {
       <Banner
         first={`ajala feranmi`}
         second={`software engineer`}
-        align={false}
       />
       <Socials />
     </>

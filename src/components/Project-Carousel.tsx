@@ -7,9 +7,9 @@ import { works } from "../works";
 
 export const ProjectCarousel = () => {
   return (
-    <div className="w-full p-10 ">
+    <div className="w-full p-5 md:p-10 ">
       <div className="flex items-center justify-between mb-10 md:mb-20">
-        <h2 className="text-4xl lg:text-6xl font-bold text-[#f8f7f8]">Projects</h2>
+        <h2 className="text-3xl md:text-6xl font-bold text-[#f8f7f8]">Projects</h2>
       </div>
 
       <Carousel className="w-full mb-10">
