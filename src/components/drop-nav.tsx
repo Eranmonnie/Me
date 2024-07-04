@@ -12,7 +12,7 @@ import { Link } from "react-router-dom";
 
 const DropdownNav = () => {
   return (
-    <div className="lg:mr-10 ">
+    <div className="lg:mr-10 fixed top-2 right-5 lg:top-7 ">
       <DropdownMenu>
         <DropdownMenuTrigger className="bg-[#663366] rounded-full text-white w-10 h-10 outline-none ">
           ⌘

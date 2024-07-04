@@ -16,14 +16,14 @@ const Banner: FC<bannerProps> = ({ first, second, align }) => {
           initial={{opacity:0, y:30}}
           animate={{opacity:1, y:0}}
           transition={{ type:'spring', stiffness:40}}
-           className="text-4xl font-inter-tight-bold uppercase lg:text-8xl">
+           className="text-4xl font-inter-tight-bold uppercase lg:text-6xl">
             {first}
           </motion.h1>
           <motion.h1
            initial={{opacity:0, y:30}}
            animate={{opacity:1, y:0}}
            transition={{delay:0.1, type:'spring', stiffness:40}}
-          className="text-4xl font-inter-tight-bold uppercase lg:text-8xl">
+          className="text-4xl font-inter-tight-bold uppercase lg:text-6xl">
             {second}
           </motion.h1>
         </div>
@@ -33,14 +33,14 @@ const Banner: FC<bannerProps> = ({ first, second, align }) => {
            initial={{opacity:0, y:30}}
            animate={{opacity:1, y:0}}
            transition={{ type:'spring', stiffness:40}}
-           className="text-4xl font-inter-tight-bold uppercase lg:text-8xl">
+           className="text-4xl font-inter-tight-bold uppercase lg:text-6xl">
             {first}
           </motion.h1>
           <motion.h1
            initial={{opacity:0, y:30}}
            animate={{opacity:1, y:0}}
            transition={{delay:0.1, type:'spring', stiffness:40}}
-           className="text-4xl font-inter-tight-bold uppercase lg:text-8xl">
+           className="text-4xl font-inter-tight-bold uppercase lg:text-6xl">
             {second}
           </motion.h1>
         </div>

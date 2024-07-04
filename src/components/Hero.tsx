@@ -7,11 +7,11 @@ interface heroProps {
 const Hero: FC<heroProps> = ({ message }) => {
   return (
     <>
-      <p className="mt-10   text-gray-500  text-xl text-left lg:text-4xl lg:w-[53%] lg:mt-8 font-inter-tight-medium  ">
+      <p className="mt-5   text-gray-500 w-[70%]  md:text-xl md:w-[53%] lg:text-1.5xl  font-inter-tight-medium  ">
         {message}
       </p>
     </>
   );
-};
+};  
 
 export default Hero;

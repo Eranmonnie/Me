@@ -4,29 +4,15 @@ import DropdownNav from "./drop-nav";
 
 const Navbar: FC = () => {
   return (
-    <div className="flex justify-between lg:gap-7  text-gray-500 font-inter-bold">
-      <Link to="/" className="text-lg font-inter-semibold lg:text-2xl">
-        Feranmi&reg;
-      </Link>
+    <div className="bg-[#f8f7f8]  flex justify-between lg:gap-7  text-gray-500 font-inter-bold  px-[0.80rem] pt-[0.80rem] md:px-[3rem] md:pt-[2rem]">
+      <div className="px-10">
 
-      {/* <div className="ml-auto flex lg:gap-7 lg:ml-auto ">
-        <Link to="/projects" className="text-lg  lg:text-xl">
-          PROJECTS
+        <Link to="/" className="text-lg font-inter-semibold lg:text-[21px]">
+          Ajala Oluwaferanmi&reg;
         </Link>
+        <DropdownNav />
 
-        <Link
-          to="/about"
-          className="text-lg ml-2  lg:text-xl"
-        >
-          ABOUT
-        </Link>
-      </div> */}
-
-      {/* <Link to="/" className="text-lg  hidden lg:inline-flex  lg:text-xl ">
-        AJALAFERANMI123@GMAIL.COM
-      </Link> */}
-      
-      <DropdownNav />
+      </div>
     </div>
   );
 };
