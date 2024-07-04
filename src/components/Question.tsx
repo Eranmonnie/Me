@@ -1,9 +1,6 @@
 import { skills } from "@/skills";
 import { ForwardIcon } from "lucide-react";
 
-import { FC } from "react";
-
-
 
 const Question = () => {
   return (

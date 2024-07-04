@@ -1,6 +1,6 @@
 
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel"
-import { ArrowRightIcon, ChevronLeftIcon, ChevronRightIcon, HashIcon } from "lucide-react"
+import { ArrowRightIcon } from "lucide-react"
 import { Link } from "react-router-dom"
 import { works } from "../works";
 

@@ -1,10 +1,10 @@
 import Question from "../components/Question";
-import Hero from "../components/Hero";
+
 
 import Footer from "../components/Footer";
 import { motion } from "framer-motion";
 import { ProjectCarousel } from "@/components/Project-Carousel";
-import { Github, Linkedin, TwitchIcon, Twitter } from "lucide-react";
+import { Github, Linkedin, Twitter } from "lucide-react";
 
 function Home() {
   return (
