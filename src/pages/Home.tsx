@@ -1,5 +1,6 @@
 import Question from "../components/Question";
 
+import Navbar from "@/components/Navbar";
 
 import Footer from "../components/Footer";
 import { motion } from "framer-motion";
@@ -10,7 +11,8 @@ function Home() {
   return (
     <>
       <div className="bg-black h-screen">
-        <div className="w-full h-full bg-[#f8f7f8] p-[0.80rem] pt-[0.80rem] md:px-[3rem] md:pt-[2rem] rounded-b-2xl ">
+      <Navbar />
+        <div className="w-full h-full bg-[#f8f7f8] px-[0.80rem] md:px-[3rem]  rounded-b-2xl ">
           <div className="p-5 md:p-10 flex items-center justify-between">
 
             <div className="flex  flex-col ">
@@ -43,7 +45,7 @@ function Home() {
 
       <div className="bg-black">
 
-        <div className=" w-full h-screen  px-[0.80rem] pt-[0.80rem] md:px-[3rem] md:pt-[2rem] ">
+        <div className=" w-full   px-[0.80rem] pt-[0.80rem] md:px-[3rem] md:pt-[2rem] h-screen ">
           <ProjectCarousel />
         </div>
       </div>

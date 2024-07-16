@@ -7,9 +7,9 @@ import { works } from "../works";
 
 export const ProjectCarousel = () => {
   return (
-    <div className="w-full p-5 md:p-10 ">
-      <div className="flex items-center justify-between mb-10 md:mb-20">
-        <h2 className="text-3xl md:text-6xl font-bold text-[#f8f7f8]">Projects</h2>
+    <div className="w-full p-5 md:p-10 h-full">
+      <div className="flex items-center justify-between mb-10 ">
+        <h2 className="text-3xl md:text-5xl lg:text-6xl font-bold text-[#f8f7f8]">Projects</h2>
       </div>
 
       <Carousel className="w-full mb-10">
@@ -21,11 +21,11 @@ export const ProjectCarousel = () => {
                   <div className="flex flex-col md:flex-row items-center gap-6 md:gap-8 " id={String(work.id)}>
 
                     <img
-                      src="https://res.cloudinary.com/djtlzuxfa/image/upload/v1703443457/Screenshot_147_ghd6mh.png"
+                      src={work.image}
                       alt="Project 1"
                       width={600}
                       height={400}
-                      className="rounded-lg w-full md:w-1/2 object-cover bg-[#1F1F29] p-10"
+                      className="rounded-lg w-full md:w-1/2 object-cover bg-[#1F1F29] p-5"
                     />
 
                     <div className="flex-1  space-y-2 text-[#f8f7f8]">

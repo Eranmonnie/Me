@@ -27,4 +27,6 @@ export const skills: Array<String> = [
   "Jest",
   "Playwright",
   "Cypress",
+  "AWS",
+  "Firebase",
 ];

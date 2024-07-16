@@ -7,7 +7,7 @@ const Question = () => {
     <>
       <div className="w-full p-5 md:p-10  bg-white rounded-lg">
 
-        <h1 className="text-3xl md:text-6xl font-bold mb-10   text-gray-500">About</h1>
+        <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold mb-10   text-gray-500">About</h1>
 
         <div className="flex flex-col gap-3 py-10 lg:flex-row lg:gap-64 text-gray-500 border-b-2 border-t-2">
           <div className="w-32  ">

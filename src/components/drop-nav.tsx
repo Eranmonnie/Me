@@ -14,7 +14,8 @@ const DropdownNav = () => {
   return (
     <div className=" ">
       <DropdownMenu>
-        <DropdownMenuTrigger className="bg-[#663366] rounded-full text-white w-10 h-10 outline-none  fixed top-6 right-9 md:top-10 ">
+        <DropdownMenuTrigger className="bg-[#663366] rounded-full text-white w-10 h-10 outline-none   ">
+        {/* fixed top-6 right-9 md:top-10 */}
           ⌘
         </DropdownMenuTrigger>
         <DropdownMenuContent className=" w-44  text-gray-500 font-inter-medium ">
