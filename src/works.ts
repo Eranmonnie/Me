@@ -4,6 +4,8 @@ interface work {
   name: string;
   data: string;
   year: string;
+  githubLink?: string;
+  liveLink?: string;
   languages:Array<string>;
 }
 
@@ -15,6 +17,8 @@ export const works: work[] = [
     name: "Silhouette®",
     data: "A  Profile Management Tool, made  to allow businesses share their persona in an organized way.",
     year: "2023",
+    githubLink: "",
+    liveLink: "",
     languages:["Nextjs", "Tailwind ", "MySQL", "ShadcnUI" ]
   },
   {
@@ -24,6 +28,8 @@ export const works: work[] = [
     name: "Stacks®",
     data: "An Academic Repository System, made with React and styled with Tailwind CSS.",
     year: "2023",
+    githubLink: "",
+    liveLink: "",
     languages:["HTML", "CSS", "MySQL" ,"Js" ]
   },
   {
@@ -33,6 +39,8 @@ export const works: work[] = [
     name: "Space®",
     data: "Online collaboration tool that allows teams communicate and share information with eachother. ",
     year: "2023",
+    githubLink: "",
+    liveLink: "",
     languages:["Nextjs", "Tailwind", "ShadcnUI" ]
   },
   {
@@ -42,6 +50,8 @@ export const works: work[] = [
     name: "Nerflix",
     data: "A video-streaming service, made with React and styled with Tailwind CSS, inspired by Netflix.",
     year: "2023",
+    githubLink: "",
+    liveLink : "",
     languages:["React", "Tailwind CSS", "Firebase" ]
   },
 ];
