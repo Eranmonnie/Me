@@ -5,12 +5,16 @@ import Home from "./pages/Home";
 
 const App = () => {
   return (
-    // <div className="">
-      <div className="xl:container xl:mx-auto ">
-      <Routes>
-        <Route path="/" element={<Home />} />
-      </Routes>
+
+    <div className="bg-[#09090B]">
+      <div className="max-w-[750px] mx-auto px-4 min-h-screen flex items-center justify-center">
+        <Routes>
+          <Route path="/" element={<Home />} />
+        </Routes>
+      </div>
     </div>
+
+
   );
 };
 
