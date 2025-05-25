@@ -1,8 +1,9 @@
+import Skills from "@/components/skills";
 
 function Portfolio() {
     return (
         <>
-               <div className="flex flex-col gap-7 mt-14 text-zinc-100 text-sm lg:text-base " >
+            <div className="flex flex-col gap-7 mt-14 text-zinc-100 text-sm lg:text-base " >
 
                 <div className="flex justify-between items-center w-full ">
                     <div className="w-full md:w-3/5 flex flex-col gap-2 ">
@@ -51,9 +52,12 @@ function Portfolio() {
 
                 <img className="w-full my-5" src="https://ghchart.rshah.org/Eranmonnie" alt="Eranmonnie's Github chart"></img>
                 <div className="w-full my-4"><p className="font-extrabold -tracking-wide text-lg">Work Experience</p><div className="my-4 md:my-3"><div className="flex items-center justify-between"><div className="flex-col-reverse justify-start flex items-start md:flex-row md:items-center gap-2 md:gap-3 my-2 md:my-1 "><p className="font-semibold text-sm  md:text-base tracking-[0.010em] text-clip ">Nject</p><div className="text-xs bg-zinc-900 dark:bg-zinc-200 text-zinc-100 dark:text-black rounded-md py-0.5 px-1 md:px-3 font-semibold tracking-wide">Remote</div></div><p className="text-xs md:text-sm tracking-wide">September 2024 - Present</p></div><p className="text-xs md:text-base font-light tracking-wide dark:text-zinc-300 text-zinc-900">Developed engaging and accessible frontend features using Next.js, enhancing user experience and platform usability. Played a key role in migrating the backend from Python to Golang, leading to a 5x increase in speed and performance. Optimized system scalability and response times, ensuring high reliability and seamless support for a growing user base.</p></div></div>
-                
+
                 <div className="w-full"><p className="font-extrabold -tracking-wide text-lg">Education</p><div className="my-3"><div className="flex items-center justify-between"><p className="font-semibold tracking-[0.010em] ">Babcock Unversity</p><p className="text-xs md:text-sm tracking-wide">Sept 2020 - June 2024!!!</p></div><p className="text-xs md:text-sm font-light tracking-wide text-zinc-900 dark:text-zinc-300">Bachelor's Degree in Software Engineering</p></div></div>
-                <div className="w-full"><p className="font-extrabold -tracking-wide text-lg">Skills</p><div className="flex items-center flex-wrap gap-3 my-2"><div className="text-xs bg-zinc-950 text-zinc-200 dark:bg-zinc-200 dark:text-black rounded-md py-0.5 px-2 md:px-3 font-semibold tracking-wide">TypeScript/JavaScript</div></div></div>
+                <div className="w-full">
+                    <p className="font-extrabold -tracking-wide text-lg">Skills</p>
+                    <Skills/>
+                </div>
                 <div className="w-full"><p className="font-extrabold -tracking-wide text-lg mb-6">Current Projects</p><div className="flex flex-col gap-2"><a href="https://github.com/sijirama/soro" target="_blank" rel="noopener noreferrer"><div className="p-3.5 hover:bg-zinc-200 dark:hover:bg-zinc-950 transition-colors duration-200 border border-zinc-400 dark:border-zinc-800 rounded-xl flex flex-col gap-4"><div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-2"><div className="space-y-1"><p className="text-sm md:text-base font-bold tracking-[0.010em]">Soro</p><p className="text-xs md:text-sm tracking-wide text-zinc-900 dark:text-zinc-100">i'm currently on freedays doing research to build a programming language or rather the interpreter for my language, called soro, the challenge here is that i want to use boken english (pidgin) for the keywords, i just finished the virtual machine and have been adding parts during my free time, check it out</p></div><p className="text-xs md:text-sm text-zinc-600 dark:text-zinc-400 italic sm:text-right">Research</p></div><div className="flex gap-2 flex-wrap py-1"><div className="text-xs bg-zinc-950 text-zinc-200 dark:bg-zinc-200 dark:text-black rounded-md py-0.5 px-2 md:px-3 font-semibold tracking-wide">Zig</div></div></div></a></div></div>
             </div>
 
