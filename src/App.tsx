@@ -7,8 +7,8 @@ import Portfolio from "./pages/Portfolio";
 const App = () => {
   return (
 
-    <div className="bg-[#09090B]">
-      <div className="max-w-[750px] mx-auto px-4 min-h-screen flex items-center justify-center">
+    <div className="bg-[#09090B] w-full flex items-center justify-center">
+      <div className="max-w-[754px] min-h-screen ">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/portfolio" element={<Portfolio />} />

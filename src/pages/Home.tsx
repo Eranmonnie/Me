@@ -2,35 +2,39 @@
 function Home() {
   return (
     <>
-      <div className="flex flex-col gap-7 my-14 text-zinc-100 text-sm lg:text-base " >
-        <div>
-          <img src="src/images/nice4.avif" alt="damm"
-            className="w-full h-[110px] object-cover rounded-lg"
-          />
-        </div>
+     <div className="w-full lg:w-[95%] mt-14 flex gap-3 md:gap-1.5 flex-col items-left h-full md:py-2  text-zinc-100 text-sm lg:text-base ">
 
-        <div className="flex flex-col gap-1 ">
-          <p className=""><span className="text-lg md:text-xl">𝓗𝓲, 𝓲𝓶 𝓕𝓮𝓻𝓪𝓷𝓶𝓲</span></p>
-          <p className=" ">I'm a software developer currently working as a full-stack developer in Lagos, Nigeria.</p>
-          <p className=" ">i'm currently interested and have experience in fullstack web-development, systems programming, a little bit of low level, sysadmin and basic devops.</p>
-          <p className="  leading-8">occasionally(ish) I write. You can check out <span className="border border-zinc-500 rounded-md px-2 hover:bg-orange-400 hover:text-black transition-colors duration-200">what I've written here</span> . If you want more info on my professional background, the details can be found <span className="border border-zinc-500 rounded-md px-2 hover:bg-orange-400 hover:text-black transition-colors duration-200">in my portfolio page</span> .</p>
+      <div className="w-full h-20 lg:h-28 bg-black rounded-md overflow-hidden mb-1 lg:mb-4"><img src="src/images/nice4.avif" className="w-full h-full"/></div>
 
-          <p className="">what keeps me up at night?</p>
-          <ul className="pl-4 list-disc space-y-2">
-            <li className=" ">computers... i just wanna know everything about them</li>
-            <li className=" ">engineering endeavors that have the potential to positively transform lives - man’s fate is the heart of tech, right?</li>
-            <li className=" ">Exploring the science-faith intersection (Christian upbringing meets scientific mind)</li>
-            <li className="  leading-8 ">music and that share music: it's a love language, <span className="border border-zinc-500 rounded-md px-2 hover:bg-orange-400 hover:text-black transition-colors duration-200">here are some playlists i've worked on</span> </li>
+        <p className="font-bold text-lg tracking-tight "><span className="underline">  Hi,im Feranmi</span> 👋</p>
+          <p>i'm a software developer currently working as a Back-end developer in Lagos, Nigeria.</p>
+          <p>i'm currently interested and have experience in backend development with fullstack capabilities and a bit of systems programming.</p>
+          <p>When I'm not coding, you'll find me jamming on my guitar or piano, hanging out with my dogs (they're the best!), or diving into anime and manga. If you want more info on my professional background, the details can be found  <a href="/portfolio"><span className="border border-zinc-500 rounded-md px-2 hover:bg-orange-400 hover:text-black transition-colors duration-200">in my portfolio page</span> </a>.</p>
 
+          <p className=" font-bold">What makes me tick 🤔?</p>
+          <ul className="pl-4 list-disc ">
+            <li>Understanding how things really work - I'm always digging deeper into the why behind the what</li>
+            <li>Building things that matter - I love creating software that solves real problems</li>
+            <li>Growth mindset - constantly learning and evolving, both personally and professionally</li>
+            <li>chocolate cake (Give me this and i'm all yours) </li>
           </ul>
           <p
-            className=""> shoot me a dm on <span className="border border-zinc-500 rounded-md px-2 hover:bg-orange-400 hover:text-black transition-colors duration-200">Twitter/X </span> or <span className="border border-zinc-500 rounded-md px-2 hover:bg-orange-400 hover:text-black transition-colors duration-200">Github</span>, if you want to chat, vibe, or build something cool together.</p>
+            className=""> shoot me a dm on <a href="https://x.com/ayokusibe_ajala">
+              <span className="border border-zinc-500 rounded-md px-2 hover:bg-orange-400 hover:text-black transition-colors duration-200">Twitter/X
+              </span>
+            </a> or <a href="https://github.com/Eranmonnie">
+              <span className="border border-zinc-500 rounded-md px-2 hover:bg-orange-400 hover:text-black transition-colors duration-200">
+                Github
+              </span>
+            </a>
+            , if you want to chat, vibe, or build something cool together.
+          </p>
 
-      
+
 
 
         </div>
-      </div>
+    
 
 
     </>
