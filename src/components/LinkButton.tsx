@@ -9,7 +9,7 @@ interface LinkButtonProps {
 function LinkButton({ href, text, className = '' }: LinkButtonProps) {
   // Determine if internal or external link
   const isExternal = href.startsWith('http');
-  const buttonClass = `border border-zinc-500 rounded-md px-2 mx-1 hover:bg-orange-400 hover:text-black transition-colors duration-200 ${className}`;
+  const buttonClass = `border border-zinc-500 rounded-md px-2 mx-1 hover:bg-yellow-500 transition-colors hover:text-black transition-colors duration-200 ${className}`;
   
   if (isExternal) {
     return (

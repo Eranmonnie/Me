@@ -41,7 +41,14 @@ function ProfileHeader() {
                 </div>
             </div>
             
-            <div className="w-1/5 hidden md:block rounded-lg bg-cover bg-center bg-no-repeat h-36 p-2 bg-red-800"></div>
+            <div className="w-1/5 hidden md:block rounded-md bg-cover bg-center bg-no-repeat h-40">
+            
+                <img
+                    src="src/images/me.png"
+                    alt="Profile"
+                    className="w-full h-full object-contain"
+                />
+            </div>
         </div>
     );
 }

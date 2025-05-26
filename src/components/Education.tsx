@@ -1,4 +1,4 @@
-import React from 'react';
+
 
 interface EducationItem {
   institution: string;
@@ -15,7 +15,7 @@ function Education() {
       duration: "2020 - 2024",
       description: "Focused on algorithms, data structures, and systems programming. Graduated with honors."
     },
-  
+
   ];
 
   return (
