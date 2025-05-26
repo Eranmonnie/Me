@@ -4,15 +4,6 @@ import SectionHeading from '@/components/SectionHeading';
 function Home() {
   return (
     <div className="w-full lg:w-[95%] mt-14 flex flex-col gap-3 md:gap-4 dark:text-zinc-950 text-zinc-100 text-sm lg:text-base p-2.5 md:p-5">
-
-      <header className="w-full h-20 lg:h-28 bg-black rounded-md overflow-hidden mb-2 lg:mb-4">
-        <img
-          src="src/images/nice4.avif"
-          className="w-full h-full object-cover"
-          alt="Profile header"
-        />
-      </header>
-
       <section className="mb-4">
         <SectionHeading>
           <span className="underline">Hi, I'm Feranmi</span> 👋
@@ -44,7 +35,7 @@ function Home() {
       <section>
         <p>
           Shoot me a DM on
-          <LinkButton href="https://x.com/ayokusibe_ajala" text="Twitter/X" />
+          <LinkButton href="https://www.linkedin.com/in/ajalaoluwaferanmi/" text="Linkedin" />
           or
           <LinkButton href="https://github.com/Eranmonnie" text="Github" />
           if you want to chat, vibe, or build something cool together.

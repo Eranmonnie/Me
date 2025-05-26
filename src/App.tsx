@@ -7,7 +7,7 @@ import Portfolio from "./pages/Portfolio";
 const App = () => {
   return (
 
-    <div className="bg-[#09090B] w-full flex items-center justify-center">
+    <div className="bg-black w-full flex items-center justify-center">
       <div className="max-w-[754px] min-h-screen ">
         <Routes>
           <Route path="/" element={<Home />} />

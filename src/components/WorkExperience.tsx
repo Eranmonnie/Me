@@ -5,7 +5,7 @@ import { experiences } from "@/experience";
 function WorkExperience() {
 
   return (
-    <section className="w-full mb-5">
+    <section className="w-full mt-5 mb-5">
       <h2 className="font-extrabold text-lg mb-3">Work Experience</h2>
       <div className="flex flex-col gap-4">
         {experiences.map((exp, index) => (

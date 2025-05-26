@@ -7,7 +7,7 @@ interface SocialLinkProps {
 function SocialLink({ href, icon }: SocialLinkProps) {
     return (
         <a href={href} target="_blank" rel="noopener noreferrer">
-            <div className="p-2 md:p-3 rounded-lg border border-zinc-500 dark:hover:bg-zinc-800 hover:bg-zinc-300 transition-colors duration-300">
+            <div className="p-1 md:p-2 rounded-lg border border-zinc-500 dark:hover:bg-zinc-800 hover:bg-zinc-300 transition-colors duration-300">
                 {getIcon(icon)}
             </div>
         </a>

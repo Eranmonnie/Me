@@ -13,7 +13,7 @@ function Education() {
       institution: "Babcock University",
       degree: "B.Sc. Software Engineering",
       duration: "2020 - 2024",
-      description: "Focused on algorithms, data structures, and systems programming. Graduated with honors."
+      description: "Focused on algorithms, data structures, and systems programming. Graduated with a 2.1 honors."
     },
 
   ];

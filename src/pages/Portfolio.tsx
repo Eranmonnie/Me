@@ -12,12 +12,7 @@ function Portfolio() {
             <AboutMe />
             
             {/* GitHub contribution chart */}
-            <img 
-                className="w-full my-5" 
-                src="https://ghchart.rshah.org/Eranmonnie" 
-                alt="Eranmonnie's Github chart"
-            />
-            
+           
             <WorkExperience />
             <Education />
             
