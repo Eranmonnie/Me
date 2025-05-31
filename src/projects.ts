@@ -10,15 +10,16 @@ interface ProjectItem {
 export const projects: ProjectItem[] = [
     {
       title: "Turva Geo-Based Safety Alert System (Collaborative Project)",
-      description: "contributing to a real-time crowd-sourced danger alert platform for small communities, designed to empower residents with instant updates on local risks like crime, natural hazards, or emergencies.",
+      description: "contributing to a crowd-sourced Geo-based alert notification and safety platform that delives instant, AI-interpreted danger alerts, enhancing community awareness and response.",
       technologies: ["Golang", "React"],
-    //   githubUrl: "https://github.com/Eranmonnie/ecommerce-api"
+    liveUrl: "https://app.turva.co"
+
     },
     {
       title: "Jqueue - Distributed Job Queue System",
       description: " Designed and implemented Jqueue, a distributed job queue system that enables reliable asynchronous task processing.",
       technologies: ["Golang", ],
-    //   githubUrl: "https://github.com/Eranmonnie/Me",
+      githubUrl: "https://github.com/Eranmonnie/jqueue",
     },
 
     // Add more projects as needed

@@ -2,7 +2,7 @@ import { experiences } from "@/experience";
 
 
 
-function WorkExperience() {
+function Experience() {
 
   return (
     <section className="w-full mt-5 mb-5">
@@ -35,4 +35,4 @@ function WorkExperience() {
   );
 }
 
-export default WorkExperience;
+export default Experience;

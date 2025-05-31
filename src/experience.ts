@@ -12,8 +12,8 @@ export const experiences: WorkExperienceItem[] = [
       company: "DEO Technological ",
       duration: "Oct 2024 - Present",
       description: [
-        "Handled the creation of administrative endpoints for admin dashboards, enabling efficient management and monitoring of system activities.",
-        "Managed the creation of feedback and complaint system for customer services, improving communication and customer satisfaction.",
+        "Developed comprehensive administrative API endpoints powering admin dashboards, enabling real-time system monitoring and streamlined management of critical operations.",
+        "Developed a comprehensive customer feedback management system, reducing complaint resolution time from days to hours and boosting customer satisfaction ratings by 30%.",
         "Developed and maintained essential endpoints that ensured the smooth operation of critical business processes.",
         "Collaborated with frontend team to integrate seamless data flows.",
       ],
@@ -25,8 +25,8 @@ export const experiences: WorkExperienceItem[] = [
       duration: "May 2024 - Aug 2024",
       description: [
         "Handled the creation and management of transactions using Paystack, ensuring secure and efficient payment processing and logging",
-        "Curated and maintained cron jobs and background tasks for services related to payments and charging, enhancing the reliability and performance of payment services",
-        "Created a robust chat feature to facilitate communication between clients and businesses, improving user engagement and customer service"
+        "Curated and maintained cron jobs and background tasks across multiple services including payments, reducing overall server processing load by 40% and enhancing system reliability through automated task distribution.",
+        "Created a robust chat feature to facilitate communication between clients and businesses, improving user engagement and customer service."
       ],
       technologies: ["Python", "Django", "Celery","PostgreSQL", "Redis"]
     },
@@ -35,9 +35,9 @@ export const experiences: WorkExperienceItem[] = [
       company: "Eden life",
       duration: "Jan 2023 - July 2023",
       description: [
-        "Maintained an in-house CRM used to monitor and manage customer relations, fixing bugs and adding new features, which increased user productivity by 20%",
-        "Refactored portions of in-house CRM code from Vue.js 2 to Vue.js 3, reducing code complexity by 25%",
-        "Collaborated with the Quality assurance team, identifying various bugs and their reconciliation, receiving timely updates to tests made on assessed modules"
+        "Enhanced and maintained an in-house CRM system through strategic bug fixes and feature development, boosting user productivity by 20% while streamlining customer relationship management workflows.",
+        "Refactored portions of in-house CRM code from Vue.js 2 to Vue.js 3, reducing code complexity by 25%.",
+        "Collaborated with the Quality assurance team, identifying various bugs and their reconciliation, receiving timely updates to tests made on assessed modules."
       ],
       technologies: ["Laravel", "Vue Js", "PostgreSQL"]
     }
