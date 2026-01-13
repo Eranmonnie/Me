@@ -29,7 +29,7 @@ function ProfileHeader() {
                     </div>
                 </div>
                 <p className="text-xs md:text-sm">
-                    Software engineer focused on designing scalable APIs, server-side optimization, and seamless data integration.
+                   Backend Engineer | Node.js • Python • Distributed Systems
                 </p>
                 <p className="font-light text-xs tracking-wide flex gap-1 items-center justify-start">
                     <svg stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 1024 1024" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
