@@ -15,12 +15,18 @@ function Education() {
       duration: "2020 - 2024",
       description: "Focused on algorithms, data structures, and systems programming. Graduated with a 2.1 honors."
     },
+    {
+      institution: "National Youth Service Corps",
+      degree: "NYSC",
+      duration: "2025 - 2026",
+      description: "Completed my National Youth Service Corps (NYSC) program in 2026, serving as a Software Engineer at Deo Technologicals."
+    },
 
   ];
 
   return (
     <section className="w-full mb-5">
-      <h2 className="font-extrabold text-lg mb-3">Education</h2>
+      <h2 className="font-extrabold text-lg mb-3">Education & Other Certifications</h2>
       <div className="flex flex-col gap-3">
         {educationItems.map((item, index) => (
           <div key={index} className="border border-zinc-800 rounded-md p-4 hover:border-zinc-600 transition-colors">

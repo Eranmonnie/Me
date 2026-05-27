@@ -7,10 +7,32 @@ interface WorkExperienceItem {
   }
 
 export const experiences: WorkExperienceItem[] = [
+  {
+    title: "Backend Engineer",
+    company: "Fastamoni Technologies ",
+    duration: "Feb 2026 - Present",
+    description: [
+      "Contributed to the development and maintenance of the fintech API infrastructure powering Bizflex Africa’s B2B platform, enabling seamless integration of virtual card issuance and wallet management for merchants and developers.",
+      "Contributed to the redesign of the account architecture to support multi-account switching, enabling users to operate both freelance and business profiles under a single identity, reducing duplication and improving user experience.",
+      "Built and integrated a scalable rewards and points system, implementing event-driven logic to track user actions (signups, bill payments, international transfers) and trigger reward allocation, driving increased platform engagement.",
+    ],
+    technologies: ["Node.js", "Nest Js", "Typescript", "Docker", "PostgreSQL", "Redis", "BullMQ"]
+  },
+  {
+    title: "Backend Engineer",
+    company: "Deaf Access Foundation (contract)",
+    duration: "Oct 2025 - May 2026",
+    description: [
+      "Developed backend infrastructure for an accessibility platform enabling speech-to-sign language translation for Deaf and Hard of Hearing users.",
+      "Implemented asynchronous task processing using Celery and Redis to handle audio and text workloads, reducing request latency and improving overall system responsiveness.",
+      "Utilized OpenCV and Google MediaPipe to process video datasets for pose estimation, extracting skeletal landmark data and preparing gloss-based lookup datasets for sign language translation workflows."
+    ],
+    technologies: ["Python", "Django Rest Framework", "Opencv", "Mediapipe", "PostgreSQL", "Redis", "Celery"]
+  },
     {
       title: "Backend Engineer",
       company: "DEO Technological ",
-      duration: "Oct 2024 - Present",
+      duration: "Oct 2024 - Jan 2026",
       description: [
         "Developed comprehensive administrative API endpoints powering admin dashboards, enabling real-time system monitoring and streamlined management of critical operations.",
         "Developed a comprehensive customer feedback management system, reducing complaint resolution time from days to hours and boosting customer satisfaction ratings by 30%.",

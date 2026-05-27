@@ -10,8 +10,8 @@ function Home() {
         </SectionHeading>
 
         <div className="flex flex-col gap-2">
-          <p>I'm a software developer currently working as a Back-end developer in Lagos, Nigeria.</p>
-          <p>I'm currently interested and have experience in backend development with fullstack capabilities and a bit of systems programming.</p>
+          <p>I'm a software Engineer currently working as a Back-end Engineer in Lagos, Nigeria.</p>
+          <p>I'm currently interested and have experience in backend software development with fullstack capabilities and a bit of systems programming.</p>
           <p>
             When I'm not coding, you'll find me jamming on my guitar or piano, hanging out with my dogs (they're the best!),
             or diving into anime and manga. If you want more info on my professional background, the details can be found
