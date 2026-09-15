@@ -1,11 +1,8 @@
-## GoatCounter proxy — must come BEFORE the SPA catch-all
-[[redirects]]
-  from = "/gc/count"
-  to = "https://eranmonnie.goatcounter.com/count"
-  status = 200
-  force = true
+[[edge_functions]]
+  path = "/gc/count"
+  function = "gc-count"
 
-## SPA catch-all — must come LAST
+## SPA catch-all
 [[redirects]]
   from = "/*"
   to = "/index.html"
