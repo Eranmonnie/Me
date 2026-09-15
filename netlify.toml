@@ -1,8 +1,4 @@
-[[edge_functions]]
-  path = "/gc/count"
-  function = "gc-count"
-
-## SPA catch-all
+## SPA catch-all — serve index.html for all routes
 [[redirects]]
   from = "/*"
   to = "/index.html"

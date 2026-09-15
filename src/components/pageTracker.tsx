@@ -14,7 +14,8 @@ function PageTracker() {
             rnd: Math.random().toString(36).slice(2),
         });
 
-        fetch(`${window.location.origin}/gc/count?${params}`, { mode: 'no-cors' }).catch(() => {});
+        fetch(`https://eranmonnie.goatcounter.com/count?${params}`, { mode: 'no-cors' })
+            .catch(() => {});
     }, [location]);
 
     return null;

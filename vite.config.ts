@@ -12,12 +12,5 @@ export default defineConfig({
   },
   server: {
     port: 3000,
-    proxy: {
-      "/gc/count": {
-        target: "https://eranmonnie.goatcounter.com",
-        changeOrigin: true,
-        rewrite: (path) => path.replace(/^\/gc/, ""),
-      },
-    },
   },
 });
