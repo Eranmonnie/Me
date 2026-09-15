@@ -12,5 +12,17 @@ export default defineConfig({
   },
   server: {
     port: 3000,
+    proxy: {
+      "/gc/count.js": {
+        target: "https://gc.zgo.at",
+        changeOrigin: true,
+        rewrite: (path) => path.replace(/^\/gc/, ""),
+      },
+      "/gc/count": {
+        target: "https://eranmonnie.goatcounter.com",
+        changeOrigin: true,
+        rewrite: (path) => path.replace(/^\/gc/, ""),
+      },
+    },
   },
 });
