@@ -15,6 +15,16 @@ function Experience() {
               <span className="text-zinc-400 text-sm">{exp.duration}</span>
             </div>
 
+            {exp.project?.name &&
+              (
+                <div className="mb-2 text-sm font-medium">
+                  <h3 >
+                    projectName: {exp.project.name}
+                  </h3>
+                </div>
+              )
+            }
+
             <ul className="list-disc pl-5 mb-3">
               {exp.description.map((item, i) => (
                 <li key={i} className="text-sm text-zinc-300 mb-1">{item}</li>
