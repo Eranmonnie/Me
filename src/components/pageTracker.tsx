@@ -14,9 +14,8 @@ function PageTracker() {
             rnd: Math.random().toString(36).slice(2),
         });
 
-        fetch(`${window.location.origin}/gc/count?${params}`).catch(() => {
-            // Silently fail if tracking is blocked
-        });
+        // TEST: calling GoatCounter directly (bypass Netlify proxy)
+        fetch(`${window.location.origin}/gc/count?${params}`, { mode: 'no-cors' }).catch(() => {});
     }, [location]);
 
     return null;
