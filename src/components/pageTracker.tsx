@@ -19,7 +19,7 @@ function PageTracker() {
         const script = document.createElement('script');
         script.src = '/gc/count.js';
         script.async = true;
-        script.setAttribute('data-goatcounter', '/gc/count');
+        script.setAttribute('data-goatcounter', `${window.location.origin}/gc/count`);
         script.setAttribute(
             'data-goatcounter-settings',
             JSON.stringify({ no_onload: true })
