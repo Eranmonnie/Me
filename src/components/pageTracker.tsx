@@ -9,6 +9,8 @@ function PageTracker() {
             p: location.pathname,
             t: document.title,
             r: document.referrer,
+            s: `${window.screen.width},${window.screen.height},${window.devicePixelRatio}`,
+            b: '0',
             rnd: Math.random().toString(36).slice(2),
         });
 
